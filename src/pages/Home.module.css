@@ -1,4 +1,71 @@
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.btn_contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn_contato button:hover{
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
 .perfil{
-   width: 450px;
-   border-radius: 25px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.img_topo_site {
+    margin-left: 50px; /* ou outro valor que desejar */
+  }
+  
+
+section.topo_do_site{
+    padding: 40px 4%;
+}
+
+
+section .topo_do_site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    line-height: 40px;
+}
+
+.topo_do_site h1{
+    color: #fff;
+    font-size: 42px;
+}
+
+.topo_do_site  .txt_topo_site h1 span{
+    color: #00ff08;
+    font-size: 80px;
+}
+
+.topo_do_site .txt_topo_site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo_do_site .img_topo_site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
