@@ -22,17 +22,22 @@ function Home() {
                 experiência possível para quem as utiliza. Estou sempre aberto a novos desafios e oportunidades,<br></br>
                 pronto para aprender e crescer junto com a equipe.</p>
 
-            <div className={styles.btn_contato}>
-              <Link>
+              <div className={styles.btn_contato}>
+                <Link>
                   <button>
-                      Entre em contato
+                    Entre em contato
                   </button>
-              </Link>
-            </div>
+                </Link>
+              </div>
+              <div className={styles.btn_social}>
+                <Link to="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0"><button><i className="bi bi-whatsapp"></i></button></Link>
+                <Link to="https://www.linkedin.com/in/matheus-agripe/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><button><i className="bi bi-linkedin"></i></button></Link>
+                <Link to="https://github.com/agripe049"><button><i className="bi bi-github"></i></button></Link>
+              </div>
             </div>
 
             <div className={styles.img_topo_site}>
-              <img src={perfil} alt="Foto de perfil" className={styles.perfil}/>
+              <img src={perfil} alt="Foto de perfil" className={styles.perfil} />
             </div>
           </div>
         </div>

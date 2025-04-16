@@ -18,6 +18,7 @@ header li a {
     text-decoration: none;
     display: inline-block;
     transition: .2s;
+    font-size: 24px;
 }
 
 header li a:hover {

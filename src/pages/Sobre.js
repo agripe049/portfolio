@@ -23,10 +23,9 @@ function Sobre() {
                   experiência possível para quem as utiliza. Estou sempre aberto a novos desafios e oportunidades,
                   pronto para aprender e crescer junto com a equipe.</p>
                   <div className={styles.btn_social}>
-                    <Link to=""><button><i className="bi bi-instagram"></i></button></Link>
-                    <Link to="www.linkedin.com/in/matheus-agripe"><button><i className="bi bi-linkedin"></i></button></Link>
+                    <Link to="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0"><button><i className="bi bi-whatsapp"></i></button></Link>
+                    <Link to="https://www.linkedin.com/in/matheus-agripe/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><button><i className="bi bi-linkedin"></i></button></Link>
                     <Link to="https://github.com/agripe049"><button><i className="bi bi-github"></i></button></Link>
-                    
                   </div>
             </div>
           </div>
