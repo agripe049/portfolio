@@ -23,7 +23,7 @@ function Home() {
                 pronto para aprender e crescer junto com a equipe.</p>
 
               <div className={styles.btn_contato}>
-                <Link>
+                <Link to="/contato">
                   <button>
                     Entre em contato
                   </button>

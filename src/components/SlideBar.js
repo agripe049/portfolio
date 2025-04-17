@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from './SlideBar.module.css'
-import costs_logo from '../img/costs_logo.png'
 
 function SlideBar() {
   return (
@@ -9,7 +8,7 @@ function SlideBar() {
       <div className={styles.interface}>
         <div className={styles.logo}>
           <Link to="/">
-              <img src={costs_logo} alt="logo"/>
+              
           </Link>
         </div>
         <nav className={styles.menuDesktop}>
@@ -30,7 +29,7 @@ function SlideBar() {
         </nav>
 
         <div className={styles.btn_contato}>
-          <Link>
+          <Link to="/contato">
               <button>Contato</button>
           </Link>
         </div>

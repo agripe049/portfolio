@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Sobre from '../pages/Sobre'
 import Projetos from "../pages/Projetos";
 import Especialidades from '../pages/Especialidades'
+import Contato from "../components/Contato";
 
 
 
@@ -15,6 +16,7 @@ function AppRoutes() {
                 <Route path="/especialidades" element={<Especialidades />} />
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/projetos" element={<Projetos />} />
+                <Route path="/contato" element={<Contato />} />
             </Routes>
         </Router>
     );
