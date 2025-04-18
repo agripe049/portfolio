@@ -63,3 +63,10 @@ section.portfolio .flex{
 .overlay:hover{
     opacity: 1;
 }
+
+@media screen and (max-width: 1020px) {
+
+    .flex{
+        flex-direction: column;
+    }
+}

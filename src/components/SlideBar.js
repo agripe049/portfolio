@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from './SlideBar.module.css'
+import logo from '../img/logo.png'
 
 function SlideBar() {
   return (
@@ -8,7 +9,7 @@ function SlideBar() {
       <div className={styles.interface}>
         <div className={styles.logo}>
           <Link to="/">
-              
+              <img src={logo} alt="Logo" />
           </Link>
         </div>
         <nav className={styles.menuDesktop}>

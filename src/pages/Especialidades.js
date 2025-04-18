@@ -1,12 +1,11 @@
-import SlideBar from "../components/SlideBar";
+
 import styles from "./Especialidades.module.css"
 
 function Contato() {
     return (
       <div>
-        <SlideBar />
         <section className={styles.especialidades}>
-            <div className="interface">
+            <div className={styles.interface}>
               <h2 className={styles.titulo}>MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div className={styles.flex}>
                     <div className={styles.especialidades_box}>

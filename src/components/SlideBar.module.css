@@ -3,8 +3,12 @@
     margin: auto;
 }
 
+.menuDesktop {
+    display: flex;
+}
+
 header {
-    padding: 40px 4%;
+    padding: 40px 4%; 
 }
 
 header > .interface {
@@ -49,4 +53,17 @@ header .btn_contato button:hover{
     box-shadow: 0px 0px 8px #00ff08;
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 1020px) {
+
+    .flex{
+        flex-direction: column;
+    }
+
+
+
+    .menuDesktop, .btn_contato {
+      display: none;
+    }
+  }
 

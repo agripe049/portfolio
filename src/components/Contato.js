@@ -1,11 +1,10 @@
 import styles from './Contato.module.css'
-import SlideBar from './SlideBar';
 
 
 function Contato(){
     return (
         <div>
-            <SlideBar />
+            
             <section className={styles.formulario}>
                 <div className={styles.interface}>
                     <h2 className={styles.titulo}>FALE <span>COMIGO.</span></h2>

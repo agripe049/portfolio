@@ -9,6 +9,7 @@
 
 section.especialidades{
     padding: 40px 4%;
+    margin-top: 100px;
 }
 
 section.especialidades .flex{
@@ -47,4 +48,11 @@ h2.titulo span{
 .especialidades .especialidades_box h3{
     font-size: 28px;
     margin: 15px 0;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .flex{
+        flex-direction: column;
+    }
 }

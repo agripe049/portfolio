@@ -1,11 +1,11 @@
-import SlideBar from "../components/SlideBar";
+
 import styles from './Projetos.module.css'
 import bolo from '../img/bolo.png';
 
 function Projetos() {
-  return (
+  return ( 
     <div>
-      <SlideBar />
+      
       <section className={styles.portfolio}>
         <div className={styles.interface}>
           <h2 className={styles.titulo}>MEU <span>PORTFÓLIO.</span></h2>

@@ -1,18 +1,21 @@
-import SlideBar from '../components/SlideBar';
 import styles from './Home.module.css'
 import { Link } from 'react-router-dom';
 import perfil from '../img/perfil.jpeg';
 import '../index.css'
+import Especialidades from './Especialidades'
+import Sobre from './Sobre';
+import Projetos from './Projetos';
+import Contato from '../components/Contato';
 
 
 
 function Home() {
-  return (
+  return ( 
     <div>
-      <SlideBar />
+      
       <section className={styles.topo_do_site}>
-        <div className="interface">
-          <div className="flex">
+        <div className={styles.interface}>
+          <div className={styles.flex}>
             <div className={styles.txt_topo_site}>
               <h1>Olá meu nome é Matheus Agripe<span>.</span></h1>
               <p>Olá meu nome é Matheus Agripe, sou um desenvolvedor front-end apaixonado por tecnologia e inovação.<br></br>
@@ -42,6 +45,10 @@ function Home() {
           </div>
         </div>
       </section>
+      <Especialidades />
+      <Sobre />
+      <Projetos />
+      <Contato />
     </div>
   );
 }
