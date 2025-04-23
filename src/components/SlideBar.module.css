@@ -50,8 +50,17 @@ header .btn_contato button{
 }
 
 header .btn_contato button:hover{
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #00ff08; 
     transform: scale(1.05);
+}
+
+.interface .logo a{
+    text-decoration: none;
+}
+
+.interface .logo a h2{
+    font-size: 60px;
+    color: #00ff08;
 }
 
 @media screen and (max-width: 1020px) {

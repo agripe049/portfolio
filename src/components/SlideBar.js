@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from './SlideBar.module.css'
-import logo from '../img/logo.png'
+
 
 function SlideBar() {
   return (
-    <header>
+    <header> 
       <div className={styles.interface}>
         <div className={styles.logo}>
           <Link to="/">
-              <img src={logo} alt="Logo" />
+              <h2>MA</h2>
           </Link>
         </div>
         <nav className={styles.menuDesktop}>
