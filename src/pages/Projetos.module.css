@@ -1,33 +1,33 @@
-.interface{
+.interface {
     max-width: 1280px;
     margin: auto;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-h2.titulo{
+h2.titulo {
     color: #fff;
     font-size: 38px;
     text-align: center;
 }
 
-h2.titulo span{
+h2.titulo span {
     color: #00ff08;
 }
 
-section.portfolio{
+section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px #ffffff1d;
 }
 
-section.portfolio .flex{
+section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
 }
 
-.img_port{
+.img_port {
     width: 360px;
     height: 460px;
     background-size: cover;
@@ -38,11 +38,11 @@ section.portfolio .flex{
     position: relative;
 }
 
-.img_port:hover{
+.img_port:hover {
     background-position: 100% 100%;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -60,13 +60,26 @@ section.portfolio .flex{
     transition: .5s;
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
 }
 
 @media screen and (max-width: 1020px) {
 
-    .flex{
+    .flex {
         flex-direction: column;
+    }
+
+    section.portfolio {
+        padding: 80px 4%;
+    }
+
+    .img_port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    section.portfolio .flex {
+       gap: 60px;
     }
 }

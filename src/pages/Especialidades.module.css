@@ -55,4 +55,14 @@ h2.titulo span{
     .flex{
         flex-direction: column;
     }
+
+    section.especialidades{
+        padding: 40px 8%;
+       
+    }
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+    
 }

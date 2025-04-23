@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Sobre() {
   return (
     <div>
-      
+       
       <section className={styles.sobre}>
         <div className={styles.interface}>
           <div className={styles.flex}>

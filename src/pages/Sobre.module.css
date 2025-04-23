@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.flex{
+.flex{ 
     display: flex;
 }
 
@@ -62,5 +62,22 @@ section.sobre .flex{
 
     .flex{
         flex-direction: column;
+    }
+    .sobre .flex{
+        flex-direction: column-reverse;
+    }
+    section.sobre{
+    padding: 150px 8%;
+    }
+    .sobre .txt_sobre h2{
+        font-size: 36px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .btn_social{
+        text-align: center;
+    }
+    .img_sobre img{
+        width: 100%;
     }
 }

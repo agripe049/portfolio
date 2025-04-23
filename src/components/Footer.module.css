@@ -26,10 +26,13 @@ footer .flex{
 .flex{
     display: flex;
 }
-
+ 
 @media screen and (max-width: 1020px) {
 
     .flex{
         flex-direction: column;
+    }
+    footer .flex{
+        text-align: center;
     }
 }

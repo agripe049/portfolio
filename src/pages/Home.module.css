@@ -96,6 +96,14 @@ section .topo_do_site .flex{
         flex-direction: column;
     }
 
+    .topo_do_site .flex{
+        flex-direction: column-reverse;
+    }
+
+    section .topo_do_site .flex{
+        gap: 40px;
+    }    
+
     section.topo_do_site{
         padding: 20px 4%;
     }
@@ -103,5 +111,10 @@ section .topo_do_site .flex{
     .topo_do_site h1{
         font-size: 30px;
         line-height: 20px;
+    }
+
+    .img_topo_site img{
+        width: 100%;
+        margin-bottom: 40px;
     }
 }
