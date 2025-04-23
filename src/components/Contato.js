@@ -9,10 +9,10 @@ function Contato() {
         e.preventDefault()
 
         emailjs.sendForm(
-            'service_q0b3mqg',    // exemplo: service_gmail
-            'template_gv8pu0l',   // exemplo: template_abcd1234
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,    // Service ID via variável de ambiente
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,   // Template ID via variável de ambiente
             form.current,
-            'HUM0clmLESDAdco3O'        // seu Public Key
+            process.env.REACT_APP_EMAILJS_USER_ID       // User ID via variável de ambiente
         )
         .then(() => {
             alert('Mensagem enviada com sucesso!')
@@ -22,6 +22,7 @@ function Contato() {
         })
         e.target.reset()
     }
+    
     return (
         <section className={styles.formulario}>
             <div className={styles.interface}>
