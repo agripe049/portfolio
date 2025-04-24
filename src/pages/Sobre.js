@@ -16,7 +16,7 @@ function Sobre() {
             </div>
             <div className={styles.txt_sobre}>
                 <h2>MUITO PRAZER, <span>SOU MATHEUS AGRIPE.</span></h2>
-                <p>Olá meu nome é Matheus Agripe, sou um desenvolvedor front-end apaixonado por tecnologia e inovação.
+                <p>Olá, meu nome é Matheus Agripe, sou um desenvolvedor front-end apaixonado por tecnologia e inovação.
                   Recém formado em Análise e Desenvolvimento de Sistemas, venho me dedicando diariamente aos estudos e à
                   prática, buscando evoluir evoluir como profissional e conquistar minha primeira oportunidade na área.
                   Meu objetivo é criar interfaces de usuário bonitas, intuitivas e funcionais, que proporcionem a melhor
