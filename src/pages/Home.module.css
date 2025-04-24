@@ -55,6 +55,7 @@ section .topo_do_site .flex{
 .topo_do_site .txt_topo_site p{
     color: #fff;
     margin: 40px 0;
+    font-size: 25px;
 }
 
 .topo_do_site .img_topo_site img{

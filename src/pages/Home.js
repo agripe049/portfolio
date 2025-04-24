@@ -17,13 +17,15 @@ function Home() {
         <div className={styles.interface}>
           <div className={styles.flex}>
             <div className={styles.txt_topo_site}>
-              <h1>Olá meu nome é Matheus Agripe<span>.</span></h1>
-              <p>Olá meu nome é Matheus Agripe, sou um desenvolvedor front-end apaixonado por tecnologia e inovação.<br></br>
-                Recém formado em Análise e Desenvolvimento de Sistemas, venho me dedicando diariamente aos estudos e à<br></br>
-                prática, buscando evoluir evoluir como profissional e conquistar minha primeira oportunidade na área.<br></br>
-                Meu objetivo é criar interfaces de usuário bonitas, intuitivas e funcionais, que proporcionem a melhor<br></br>
-                experiência possível para quem as utiliza. Estou sempre aberto a novos desafios e oportunidades,<br></br>
-                pronto para aprender e crescer junto com a equipe.</p>
+              <h1>Olá! Meu nome é Matheus Agripe<span>.</span></h1>
+              <p>Olá! Sou Matheus Agripe, desenvolvedor front-end com 
+                especialidade em React.js, JavaScript, HTML, CSS e 
+                Firebase. Estou em busca da minha primeira oportunidade
+                na área de tecnologia. Posso não ser o mais experiente,
+                 mas sou extremamente dedicado, comprometido com 
+                 resultados e sempre em busca de evolução constante. 
+                 Vamos conversar?
+              </p>
 
               <div className={styles.btn_contato}>
                 <Link to="/contato">
