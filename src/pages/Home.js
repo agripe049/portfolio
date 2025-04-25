@@ -9,7 +9,7 @@ import Contato from '../components/Contato';
 
 
 
-function Home() {
+function Home() { 
   return ( 
     <div>
       
@@ -19,7 +19,7 @@ function Home() {
             <div className={styles.txt_topo_site}>
               <h1>Olá! Meu nome é Matheus Agripe<span>.</span></h1>
               <p>Olá! Sou Matheus Agripe, desenvolvedor front-end com 
-                especialidade em React.js, JavaScript, HTML, CSS e 
+                especialidades em React.js, JavaScript, HTML, CSS e 
                 Firebase. Estou em busca da minha primeira oportunidade
                 na área de tecnologia. Posso não ser o mais experiente,
                  mas sou extremamente dedicado, comprometido com 
@@ -36,7 +36,7 @@ function Home() {
               </div>
               <div className={styles.btn_social}>
                 <Link to="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0"><button><i className="bi bi-whatsapp"></i></button></Link>
-                <Link to="https://www.linkedin.com/in/matheus-agripe/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><button><i className="bi bi-linkedin"></i></button></Link>
+                <Link to="https://www.linkedin.com/in/matheus-agripe/"><button><i className="bi bi-linkedin"></i></button></Link>
                 <Link to="https://github.com/agripe049"><button><i className="bi bi-github"></i></button></Link>
               </div>
             </div>
