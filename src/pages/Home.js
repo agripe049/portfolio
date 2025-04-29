@@ -11,11 +11,11 @@ import Contato from '../components/Contato';
 
 function Home() { 
   return ( 
-    <div>
+    <div> 
       
       <section className={styles.topo_do_site}>
         <div className={styles.interface}>
-          <div className={styles.flex}>
+          <div className={styles.flex}> 
             <div className={styles.txt_topo_site}>
               <h1>Olá! Meu nome é Matheus Agripe<span>.</span></h1>
               <p>Olá! Sou Matheus Agripe, desenvolvedor front-end com 
@@ -28,7 +28,7 @@ function Home() {
               </p>
 
               <div className={styles.btn_contato}>
-                <Link to="/contato">
+                <Link to="/contato"> 
                   <button>
                     Entre em contato
                   </button>

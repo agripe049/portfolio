@@ -1,25 +1,52 @@
 import styles from './Projetos.module.css'
-import bolo from '../img/bolo.png';
+import home from '../img/home.png';
+import { Link } from 'react-router-dom';
 
 function Projetos() {
-  return ( 
-    <div>
-      
+  return (  
+    <div> 
       <section className={styles.portfolio}>
-        <div className={styles.interface}>
-          <h2 className={styles.titulo}>MEU <span>PORTFÓLIO.</span></h2>
-          <div className={styles.flex}>
-            <div className={styles.img_port} style={{ backgroundImage: `url(${bolo})` }}>
-                <div className={styles.overlay}>Projeto 1</div>
+          <div className={styles.interface}>
+            <h2 className={styles.titulo}>MEU <span>PORTFÓLIO.</span></h2>
+            <div className={styles.flex}>
+              <div className={styles.img_portfolio}>
+                <img src={home} alt="Home" className={styles.home} />
+              </div>
+              <div className={styles.txt_portfolio}>
+                  <h2>Pot Cakes Confeitaria</h2>
+                  <p>Sistema desenvolvido para gerenciamento de confeitaria.</p>
+                  <div className={styles.btn_portfolio}>
+                      <button>HTML</button>
+                      <button>CSS</button>
+                      <button>JavaScript</button>
+                      <button>React.js</button>
+                      <button>Firebase</button>
+                  </div>
+                  <div className={styles.btn_verprojeto}>
+                      <Link to="/potcakes">
+                          <button>Ver projeto</button>
+                      </Link>
+                  </div>
+              </div>
             </div>
-            <div className={styles.img_port} style={{ backgroundImage: `url(${bolo})` }}>
-                <div className={styles.overlay}>Projeto 2</div>
-            </div>
-            <div className={styles.img_port} style={{ backgroundImage: `url(${bolo})` }}>
-                <div className={styles.overlay}>Projeto 3</div>
+
+            <div className={styles.flex}>
+              <div className={styles.img_portfolio}>
+                <img src={home} alt="Home" className={styles.home} />
+              </div>
+              <div className={styles.txt_portfolio}>
+                  <h2>Pot Cakes Confeitaria</h2>
+                  <p>Sistema desenvolvido para gerenciamento de confeitaria.</p>
+                  <div className={styles.btn_portfolio}>
+                      <button>HTML</button>
+                      <button>CSS</button>
+                      <button>JavaScript</button>
+                      <button>React.js</button>
+                      <button>Firebase</button>
+                  </div>
+              </div>
             </div>
           </div>
-        </div>
       </section>
     </div>
   );

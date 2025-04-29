@@ -3,9 +3,8 @@ import perfil from '../img/perfil.jpeg'
 import { Link } from "react-router-dom";
 import curriculo from '../img/curriculo.pdf'
 
-
 function Sobre() {
-
+ 
       const handleDownload = (e) => {
         e.preventDefault(); // Previne o comportamento padrão do link
         const link = document.createElement('a');

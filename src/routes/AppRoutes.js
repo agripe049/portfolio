@@ -7,6 +7,7 @@ import Especialidades from '../pages/Especialidades'
 import Contato from "../components/Contato";
 import SlideBar from "../components/SlideBar";
 import Footer from "../components/Footer";
+import PotCakes from "../pages/PotCakes";
 
 
 
@@ -20,6 +21,7 @@ function AppRoutes() {
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/projetos" element={<Projetos />} />
                 <Route path="/contato" element={<Contato />} />
+                <Route path="/potcakes" element={<PotCakes />}/>
             </Routes>
             <Footer />
         </Router>
