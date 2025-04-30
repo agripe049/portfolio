@@ -10,7 +10,9 @@ function Projetos() {
             <h2 className={styles.titulo}>MEU <span>PORTFÓLIO.</span></h2>
             <div className={styles.flex}>
               <div className={styles.img_portfolio}>
-                <img src={home} alt="Home" className={styles.home} />
+                <Link to="/potcakes">
+                  <img src={home} alt="Home" className={styles.home} />
+                </Link>
               </div>
               <div className={styles.txt_portfolio}>
                   <h2>Pot Cakes Confeitaria</h2>
