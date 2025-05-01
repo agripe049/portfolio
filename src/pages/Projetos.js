@@ -7,7 +7,7 @@ function Projetos() {
     <div> 
       <section className={styles.portfolio}>
           <div className={styles.interface}>
-            <h2 className={styles.titulo}>MEU <span>PORTFÓLIO.</span></h2>
+            <h2 className={styles.titulo}>MEUS <span>PROJETOS.</span></h2>
             <div className={styles.flex}>
               <div className={styles.img_portfolio}>
                 <Link to="/potcakes">
@@ -21,7 +21,7 @@ function Projetos() {
                       <button>HTML</button>
                       <button>CSS</button>
                       <button>JavaScript</button>
-                      <button>React.js</button>
+                      <button>React</button>
                       <button>Firebase</button>
                   </div>
                   <div className={styles.btn_verprojeto}>
@@ -43,7 +43,7 @@ function Projetos() {
                       <button>HTML</button>
                       <button>CSS</button>
                       <button>JavaScript</button>
-                      <button>React.js</button>
+                      <button>React</button>
                       <button>Firebase</button>
                   </div>
               </div>

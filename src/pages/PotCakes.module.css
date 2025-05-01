@@ -73,3 +73,51 @@ h2.titulo span {
     gap: 20px;
     margin-top: 20px;
 }
+
+.txt_potcakes .voltar{
+    display: flex;
+    justify-content: center;
+}
+
+.txt_potcakes .voltar p {
+    display: flex; /* adicionado */
+    align-items: center; /* centraliza verticalmente */
+    gap: 10px; /* espaço entre ícone e texto */
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.txt_potcakes .voltar a{
+    text-decoration: none;
+}
+
+.txt_potcakes .voltar p:hover{
+    color: #00ff08; 
+    transform: scale(1.05);
+}
+
+.icone{
+    font-size: 22px;
+}
+
+.txt_img {
+    display: flex;
+    justify-content: flex-start; /* Alinha a imagem à esquerda */
+    margin-top: 30px; /* opcional: só para afastar da seção acima */
+}
+
+.txt_img img {
+  max-width: 100%;
+  height: auto;
+  transform: translateX(-30px); /* Opcional: move mais para a esquerda */
+}
+
+.login h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200px;
+    text-align: center;
+}

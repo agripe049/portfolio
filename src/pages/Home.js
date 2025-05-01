@@ -9,35 +9,41 @@ import Contato from '../components/Contato';
 
 
 
-function Home() { 
-  return ( 
-    <div> 
-      
+function Home() {
+  return (
+    <div>
+
       <section className={styles.topo_do_site}>
         <div className={styles.interface}>
-          <div className={styles.flex}> 
+          <div className={styles.flex}>
             <div className={styles.txt_topo_site}>
               <h1>Olá! Meu nome é Matheus Agripe<span>.</span></h1>
-              <p>Olá! Sou Matheus Agripe, desenvolvedor front-end com 
-                especialidades em React.js, JavaScript, HTML, CSS e 
+              <p>Olá! Sou Matheus Agripe, desenvolvedor front-end com
+                especialidades em React.js, JavaScript, HTML, CSS e
                 Firebase. Estou em busca da minha primeira oportunidade
                 na área de tecnologia. Posso não ser o mais experiente,
-                 mas sou extremamente dedicado, comprometido com 
-                 resultados e sempre em busca de evolução constante. 
-                 Vamos conversar?
+                mas sou extremamente dedicado, comprometido com
+                resultados e sempre em busca de evolução constante.
+                Vamos conversar?
               </p>
 
               <div className={styles.btn_contato}>
-                <Link to="/contato"> 
+                <Link to="/contato">
                   <button>
                     Entre em contato
                   </button>
                 </Link>
               </div>
               <div className={styles.btn_social}>
-                <Link to="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0"><button><i className="bi bi-whatsapp"></i></button></Link>
-                <Link to="https://www.linkedin.com/in/matheus-agripe/"><button><i className="bi bi-linkedin"></i></button></Link>
-                <Link to="https://github.com/agripe049"><button><i className="bi bi-github"></i></button></Link>
+                <a href="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                  <button><i className="bi bi-whatsapp"></i></button>
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-agripe/" target="_blank" rel="noopener noreferrer">
+                  <button><i className="bi bi-linkedin"></i></button>
+                </a>
+                <a href="https://github.com/agripe049" target="_blank" rel="noopener noreferrer">
+                  <button><i className="bi bi-github"></i></button>
+                </a>
               </div>
             </div>
 

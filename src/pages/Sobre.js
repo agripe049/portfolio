@@ -1,19 +1,18 @@
 import styles from './Sobre.module.css'
 import perfil from '../img/perfil.jpeg'
-import { Link } from "react-router-dom";
 import curriculo from '../img/curriculo.pdf'
 
 function Sobre() {
- 
-      const handleDownload = (e) => {
-        e.preventDefault(); // Previne o comportamento padrão do link
-        const link = document.createElement('a');
-        link.href = curriculo;
-        link.setAttribute('download', 'curriculo.pdf'); // Nome do arquivo ao ser baixado
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link); // Remove o link após o download
-      };
+
+  const handleDownload = (e) => {
+    e.preventDefault(); // Previne o comportamento padrão do link
+    const link = document.createElement('a');
+    link.href = curriculo;
+    link.setAttribute('download', 'curriculo.pdf'); // Nome do arquivo ao ser baixado
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link); // Remove o link após o download
+  };
 
   return (
     <div>
@@ -35,13 +34,19 @@ function Sobre() {
                 na vida real e estou sempre em busca do próximo desafio.</p>
 
               <div className={styles.btn_curriculo}>
-                  <button onClick={handleDownload}>Baixar CV</button>
+                <button onClick={handleDownload}>Baixar CV</button>
               </div>
 
               <div className={styles.btn_social}>
-                <Link to="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0"><button><i className="bi bi-whatsapp"></i></button></Link>
-                <Link to="https://www.linkedin.com/in/matheus-agripe/"><button><i className="bi bi-linkedin"></i></button></Link>
-                <Link to="https://github.com/agripe049"><button><i className="bi bi-github"></i></button></Link>
+                <a href="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                  <button><i className="bi bi-whatsapp"></i></button>
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-agripe/" target="_blank" rel="noopener noreferrer">
+                  <button><i className="bi bi-linkedin"></i></button>
+                </a>
+                <a href="https://github.com/agripe049" target="_blank" rel="noopener noreferrer">
+                  <button><i className="bi bi-github"></i></button>
+                </a>
               </div>
             </div>
           </div>

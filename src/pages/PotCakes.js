@@ -1,7 +1,9 @@
 import styles from './PotCakes.module.css'
-import { Link } from 'react-router-dom';
 import { CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import { FaArrowLeftLong } from "react-icons/fa6";
+import login from '../img/login.png'
 
 function PotCakes() {
     return (
@@ -36,10 +38,28 @@ function PotCakes() {
                                 <button>Firebase</button>
                             </div>
                             <div className={styles.btn_online}>
-                                <Link to="https://bolo-theta.vercel.app"><button><CiGlobe /> Projeto Online</button></Link>
-                                <Link to="https://github.com/agripe049"><button><FaGithub /> Repositório</button></Link>
+                                <a href="https://bolo-theta.vercel.app" target="_blank" rel="noopener noreferrer">
+                                    <button><CiGlobe /> Projeto Online</button>
+                                </a>
+                                <a href="https://github.com/agripe049/bolo" target="_blank" rel="noopener noreferrer">
+                                    <button><FaGithub /> Repositório</button>
+                                </a>
+                            </div>
+                            <div className={styles.voltar}>
+                                <Link to="/projetos">
+                                    <p><FaArrowLeftLong className={styles.icone} /> Voltar para projetos</p>
+                                </Link>
                             </div>
                         </div>
+                    </div>
+                        <div className={styles.login}>
+                            <h2>Login</h2>
+                        </div>
+                    <div className={styles.txt_img}>
+                        <img src={login} alt="Login" />
+                    </div>
+                    <div className={styles.login}>
+                            <h2>Home</h2>
                     </div>
                 </div>
             </section>
