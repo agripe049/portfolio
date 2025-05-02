@@ -1,6 +1,7 @@
 import styles from './Projetos.module.css'
-import home from '../img/home.png';
+import login from '../img/login.png';
 import { Link } from 'react-router-dom';
+import home from '../img/home.png'
 
 function Projetos() {
   return (  
@@ -11,7 +12,7 @@ function Projetos() {
             <div className={styles.flex}>
               <div className={styles.img_portfolio}>
                 <Link to="/potcakes">
-                  <img src={home} alt="Home" className={styles.home} />
+                  <img src={login} alt="Login" className={styles.login} />
                 </Link>
               </div>
               <div className={styles.txt_portfolio}>

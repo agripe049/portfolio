@@ -105,14 +105,13 @@ h2.titulo span {
 
 .txt_img {
     display: flex;
-    justify-content: flex-start; /* Alinha a imagem à esquerda */
+    justify-content: center; /* Alinha a imagem à esquerda */
     margin-top: 30px; /* opcional: só para afastar da seção acima */
 }
 
 .txt_img img {
   max-width: 100%;
   height: auto;
-  transform: translateX(-30px); /* Opcional: move mais para a esquerda */
 }
 
 .login h2{
@@ -120,4 +119,10 @@ h2.titulo span {
     font-size: 40px;
     font-weight: 200px;
     text-align: center;
+    margin-top: 30px;
 }
+
+.txt_img img{
+    margin-bottom: 30px;
+}
+

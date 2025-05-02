@@ -4,6 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import login from '../img/login.png'
+import home from '../img/home.png'
+import relatorios from '../img/relatorios.png'
 
 function PotCakes() {
     return (
@@ -52,14 +54,24 @@ function PotCakes() {
                             </div>
                         </div>
                     </div>
-                        <div className={styles.login}>
-                            <h2>Login</h2>
-                        </div>
+                    
+                    <div className={styles.login}>
+                        <h2>Login</h2>
+                    </div>
                     <div className={styles.txt_img}>
                         <img src={login} alt="Login" />
                     </div>
                     <div className={styles.login}>
-                            <h2>Home</h2>
+                        <h2>Home</h2>
+                    </div>
+                    <div className={styles.txt_img}>
+                        <img src={home} alt="Home" />
+                    </div>
+                    <div className={styles.login}>
+                        <h2>Relatórios</h2>
+                    </div>
+                    <div className={styles.txt_img}>
+                        <img src={relatorios} alt="Relatórios" />
                     </div>
                 </div>
             </section>
