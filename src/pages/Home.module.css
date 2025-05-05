@@ -83,7 +83,7 @@ section .topo_do_site .flex{
     cursor: pointer;
     margin: 0 8px;
     transition: .2s;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .btn_social button:hover{
