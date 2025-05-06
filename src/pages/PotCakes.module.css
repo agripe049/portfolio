@@ -6,7 +6,7 @@
 .flex {
     display: flex;
 }
-
+ 
 h2.titulo {
     color: #fff;
     font-size: 38px;
@@ -136,7 +136,7 @@ h2.titulo span {
     .btn_potcakes{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
     .txt_img{
         padding: 20px;

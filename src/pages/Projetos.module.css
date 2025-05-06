@@ -111,10 +111,24 @@ section .img_portfolio .login:hover{
         padding: 80px 4%;
     }
 
-    .img_portfolio {
+    .img_portfolio img{
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
+        justify-content: center;
+        padding: 10px 4%;
     }
-    
+
+    .txt_portfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .btn_portfolio {
+        display: flex;
+        flex-wrap: wrap; /* permite quebra de linha */
+        gap: 0.5rem; /* espaço entre os botões */
+        justify-content: center; /* opcional: centraliza os botões */
+      }
 }
