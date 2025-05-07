@@ -1,7 +1,7 @@
 import styles from './Projetos.module.css'
 import login from '../img/login.png';
 import { Link } from 'react-router-dom';
-import home from '../img/home.png'
+import dash from '../img/dash.png'
 
 function Projetos() {
   return (
@@ -33,14 +33,20 @@ function Projetos() {
             </div>
           </div>
 
+
+          {/*----------------------------------------------------------------------------------------------------------------------*/}
+
+
           <div className={styles.flex}>
-            <div className={styles.img_portfolio}>
-              <img src={home} alt="Home" className={styles.home} />
+            <div className={styles.img_gerenciamento}>
+              <Link to="/gerenciamentoCasamento">
+                <img src={dash} alt="Dash" className={styles.login} />
+              </Link>
             </div>
-            <div className={styles.txt_portfolio}>
+            <div className={styles.txt_gerenciamento}>
               <h2>Gerenciamento de orçamentos</h2>
               <p>Sistema desenvolvido para gerenciamento de orçamentos para casamentos</p>
-              <div className={styles.btn_portfolio}>
+              <div className={styles.btn_gerenciamento}>
                 <button>HTML</button>
                 <button>CSS</button>
                 <button>JavaScript</button>

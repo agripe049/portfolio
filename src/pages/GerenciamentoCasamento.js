@@ -10,9 +10,9 @@ function GerenciamentoCasamento() {
         <div>
             <section className={styles.gerenciamento}>
                 <div className={styles.interface}>
-                    <h2 className={styles.titulo}><span>Pot Cakes</span> - Confeitaria</h2>
+                    <h2 className={styles.titulo}><span>Gerenciamento</span> - Orçamentos</h2>
                     <div className={styles.flex}>
-                        <div className={styles.txt_potcakes}>
+                        <div className={styles.txt_gerenciamento}>
                             <p>O projeto "Pot Cakes" foi desenvolvido para atender às necessidades específicas
                                 de uma confeiteira no gerenciamento de seus pedidos. Na página inicial, é exibido
                                 um painel com a quantidade de pedidos organizados por data de entrega, além de
@@ -30,7 +30,7 @@ function GerenciamentoCasamento() {
                                 mostrando o total de produtos vendidos, o faturamento acumulado e os itens mais vendidos.
                                 Esse projeto foi um caso de sucesso e atualmente está em uso por uma pequena empresa do
                                 ramo de confeitaria, contribuindo diretamente para a organização e eficiência das suas operações diárias.</p>
-                            <div className={styles.btn_potcakes}>
+                            <div className={styles.btn_gerenciamento}>
                                 <button>HTML</button>
                                 <button>CSS</button>
                                 <button>JavaScript</button>

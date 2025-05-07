@@ -7,10 +7,6 @@
     display: flex;
 }
 
-.home{
-    width: 80%;
-    height: 400px;
-}
 
 .login{
     width: 80%;
@@ -39,7 +35,7 @@ section.portfolio .flex {
 .portfolio .txt_portfolio{
     color: #fff;
 }
-.sobre .txt_sobre h2{
+.portfolio .txt_portfolio h2{
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
@@ -97,8 +93,56 @@ section .img_portfolio .login:hover{
     transform: scale(1.05);
 }
 
-
-
+.img_gerenciamento {
+    width: 88%;
+    height: 400px;
+  }
+  
+  section .img_gerenciamento .login {
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 10px;
+  }
+  
+  section .img_gerenciamento .login:hover {
+    transform: scale(1.05);
+  }
+  
+  .txt_gerenciamento {
+    color: #fff;
+  }
+  
+  .txt_gerenciamento p {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .btn_gerenciamento {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .btn_gerenciamento button {
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 600; 
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  .btn_gerenciamento button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+  }
+  section .txt_gerenciamento h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
 
 
 @media screen and (max-width: 1020px) {
@@ -130,5 +174,26 @@ section .img_portfolio .login:hover{
         flex-wrap: wrap; /* permite quebra de linha */
         gap: 0.5rem; /* espaço entre os botões */
         justify-content: center; /* opcional: centraliza os botões */
+      }
+      .img_gerenciamento img {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 10px 4%;
+      }
+    
+      .txt_gerenciamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .btn_gerenciamento {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
       }
 }
