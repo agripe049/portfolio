@@ -36,7 +36,7 @@ function PotCakes() {
                                 <button>HTML</button>
                                 <button>CSS</button>
                                 <button>JavaScript</button>
-                                <button>React.js</button>
+                                <button>React</button>
                                 <button>Firebase</button>
                             </div>
                             <div className={styles.btn_online}>
