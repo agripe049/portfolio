@@ -97,3 +97,43 @@ h2.titulo span {
 .icone{
     font-size: 22px;
 }
+.txt_img {
+    display: flex;
+    justify-content: center; /* Alinha a imagem à esquerda */
+    margin-top: 30px; /* opcional: só para afastar da seção acima */
+}
+
+.txt_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dash h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.txt_img img{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1020px){
+    .flex{
+        flex-direction: column;
+    }
+    section .txt_gerenciamento{
+        padding: 20px 6%;
+    }
+    .btn_gerenciamento{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    .txt_img{
+        padding: 20px;
+    }
+    
+}

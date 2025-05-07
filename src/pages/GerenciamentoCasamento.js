@@ -3,6 +3,7 @@ import { CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
+import dash from '../img/dash.png'
 
 
 function GerenciamentoCasamento() {
@@ -46,6 +47,12 @@ function GerenciamentoCasamento() {
                                 </Link>
                             </div>
                         </div>
+                    </div>
+                    <div className={styles.dash}>
+                        <h2>Dash</h2>
+                    </div>
+                    <div className={styles.txt_img}>
+                        <img src={dash} alt="Dash" />
                     </div>
                 </div>
             </section>

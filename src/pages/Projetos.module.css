@@ -1,199 +1,206 @@
 .interface {
-    max-width: 1280px;
-    margin: auto;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 
-.login{
-    width: 80%;
-    height: 400px;
+.login {
+  width: 80%;
+  height: 400px;
+  border-radius: 10px;
 }
 
 h2.titulo {
-    color: #fff;
-    font-size: 38px;
-    text-align: center;
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
 }
 
 h2.titulo span {
-    color: #00ff08;
+  color: #00ff08;
 }
 
 section.portfolio {
-    padding: 80px 4%;
-    box-shadow: 0 0 40px #ffffff1d;
+  padding: 80px 4%;
+  box-shadow: 0 0 40px #ffffff1d;
 }
 
 section.portfolio .flex {
-    justify-content: space-around;
-    margin-top: 60px;
-}
-.portfolio .txt_portfolio{
-    color: #fff;
-}
-.portfolio .txt_portfolio h2{
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 30px;
+  justify-content: space-around;
+  margin-top: 60px;
 }
 
-.portfolio .txt_portfolio p{
-    margin: 20px 0;
-    text-align: justify;
-    font-size: 20px;
+.portfolio .txt_portfolio {
+  color: #fff;
 }
-.btn_portfolio button{
-    padding: 8px 15px;
-    font-size: 18px;
-    font-weight: 600; 
-    background-color: #00ff08;
-    border: 0;
-    border-radius: 30px; 
-    cursor: pointer;
-    transition: .2s;
+
+.portfolio .txt_portfolio h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.portfolio .txt_portfolio p {
+  margin: 20px 0;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.btn_portfolio button {
+  padding: 8px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
 }
 
 .btn_portfolio button:hover {
-    box-shadow: 0px 0px 8px #00ff08;
-    transform: scale(1.05);
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
 }
 
-.btn_portfolio{
-    display: flex;
-    gap: 8px;
+.btn_portfolio {
+  display: flex;
+  gap: 8px;
 }
 
-.btn_verprojeto button{
-    padding: 8px 15px;
-    font-size: 18px;
-    font-weight: 600; 
-    background-color: #00ff08;
-    border: 0;
-    border-radius: 30px; 
-    cursor: pointer;
-    transition: .2s;
-    margin-top: 20px;
+.btn_verprojeto button {
+  padding: 8px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+  margin-top: 20px;
 }
 
-.btn_verprojeto button:hover{
-    box-shadow: 0px 0px 8px #00ff08;
-    transform: scale(1.05);
+.btn_verprojeto button:hover {
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
 }
 
-section .img_portfolio .login{
-    cursor: pointer;
-    transition: .2s;
-    border-radius: 10px;
+section .img_portfolio .login {
+  cursor: pointer;
+  transition: .2s;
+  border-radius: 10px;
 }
-section .img_portfolio .login:hover{
-    transform: scale(1.05);
+
+section .img_portfolio .login:hover {
+  transform: scale(1.05);
 }
 
 .img_gerenciamento {
-    width: 88%;
-    height: 400px;
-  }
-  
-  section .img_gerenciamento .login {
-    cursor: pointer;
-    transition: .2s;
-    border-radius: 10px;
-  }
-  
-  section .img_gerenciamento .login:hover {
-    transform: scale(1.05);
-  }
-  
-  .txt_gerenciamento {
-    color: #fff;
-  }
-  
-  .txt_gerenciamento p {
-    margin: 20px 0;
-    text-align: justify;
-    font-size: 20px;
-  }
-  
-  .btn_gerenciamento {
-    display: flex;
-    gap: 8px;
-  }
-  
-  .btn_gerenciamento button {
-    padding: 8px 15px;
-    font-size: 18px;
-    font-weight: 600; 
-    background-color: #00ff08;
-    border: 0;
-    border-radius: 30px; 
-    cursor: pointer;
-    transition: .2s;
-  }
-  
-  .btn_gerenciamento button:hover {
-    box-shadow: 0px 0px 8px #00ff08;
-    transform: scale(1.05);
-  }
-  section .txt_gerenciamento h2{
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 30px;
+  width: 88%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+section .img_gerenciamento .login {
+  cursor: pointer;
+  transition: .2s;
+}
+
+section .img_gerenciamento .login:hover {
+  transform: scale(1.05);
+}
+
+.txt_gerenciamento {
+  color: #fff;
+}
+
+.txt_gerenciamento p {
+  margin: 20px 0;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.btn_gerenciamento {
+  display: flex;
+  gap: 8px;
+}
+
+.btn_gerenciamento button {
+  padding: 8px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn_gerenciamento button:hover {
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
+}
+
+section .txt_gerenciamento h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
 }
 
 
 @media screen and (max-width: 1020px) {
 
-    .flex {
-        flex-direction: column;
-    }
+  .flex {
+    flex-direction: column;
+  }
 
-    section.portfolio {
-        padding: 80px 4%;
-    }
+  section.portfolio {
+    padding: 80px 4%;
+  }
 
-    .img_portfolio img{
-        width: 100%;
-        max-width: 360px;
-        margin: 0 auto;
-        justify-content: center;
-        padding: 10px 4%;
-    }
+  .img_portfolio img,
+  .img_gerenciamento img {
+    display: block;
+    margin: 0 auto;
+    max-width: 360px;
+    width: 100%;
+    padding: 10px 4%;
+  }
 
-    .txt_portfolio{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .btn_portfolio {
-        display: flex;
-        flex-wrap: wrap; /* permite quebra de linha */
-        gap: 0.5rem; /* espaço entre os botões */
-        justify-content: center; /* opcional: centraliza os botões */
-      }
-      .img_gerenciamento img {
-        width: 100%;
-        max-width: 360px;
-        margin: 0 auto;
-        justify-content: center;
-        padding: 10px 4%;
-      }
-    
-      .txt_gerenciamento {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-    
-      .btn_gerenciamento {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        justify-content: center;
-      }
+  .txt_portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 4%;
+  }
+
+  .btn_portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    /* permite quebra de linha */
+    gap: 0.5rem;
+    /* espaço entre os botões */
+    justify-content: center;
+    /* opcional: centraliza os botões */
+  }
+
+  .txt_gerenciamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 4%;
+  }
+
+  .btn_gerenciamento {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
 }
