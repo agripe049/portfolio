@@ -7,7 +7,7 @@ import Sobre from './Sobre';
 import Projetos from './Projetos';
 import Contato from '../components/Contato';
 
-
+// ola
 
 function Home() {
   return (
@@ -46,7 +46,6 @@ function Home() {
                 </a>
               </div>
             </div>
-
             <div className={styles.img_topo_site}>
               <img src={perfil} alt="Foto de perfil" className={styles.perfil} />
             </div>
