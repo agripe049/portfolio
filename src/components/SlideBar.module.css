@@ -40,7 +40,7 @@ header nav ul li {
 
 header .btn_contato button{
     padding: 10px 40px;
-    font-size: 18px;
+    font-size: 18px; 
     font-weight: 600;
     background-color: #00ff08;
     border: 0;
@@ -68,11 +68,11 @@ header .btn_contato button:hover{
     .flex{
         flex-direction: column;
     }
-
-
-
     .menuDesktop, .btn_contato {
       display: none;
+    }
+    .interface .logo a h2{
+        font-size: 30px;
     }
   }
 

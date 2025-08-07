@@ -5,7 +5,7 @@ import styles from './SlideBar.module.css'
 
 function SlideBar() {
   return (
-    <header> 
+    <header>  
       <div className={styles.interface}>
         <div className={styles.logo}>
           <Link to="/">
