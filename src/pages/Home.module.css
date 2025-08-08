@@ -113,7 +113,7 @@ section .topo_do_site .flex{
     }
 
     .topo_do_site h1{
-        font-size: 16px;
+        font-size: 20px;
         line-height: 20px;
     }
     .topo_do_site .txt_topo_site h1 span{
@@ -128,5 +128,24 @@ section .topo_do_site .flex{
         width: 60%;
         margin-bottom: 40px;
         margin-top: -60px;
+    }
+    .topo_do_site .txt_topo_site p{
+        font-size: 18px;
+    }
+    .btn_contato a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .btn_social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn_social a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
     }
 }
