@@ -137,15 +137,22 @@ section .topo_do_site .flex{
         justify-content: center;
         text-decoration: none;
     }
+    .btn_contato button{
+        padding: 8px 20px;
+        font-size: px;
+    }
     .btn_social {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .btn_social a{
+    .btn_social button{
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
     }
 }

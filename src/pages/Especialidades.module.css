@@ -1,32 +1,32 @@
-.interface{
+.interface {
     max-width: 1280px;
     margin: auto;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-section.especialidades{
+section.especialidades {
     padding: 40px 4%;
     margin-top: 30px;
 }
 
-section.especialidades .flex{
+section.especialidades .flex {
     gap: 60px;
 }
 
-h2.titulo{
+h2.titulo {
     color: #fff;
     font-size: 38px;
     text-align: center;
 }
 
-h2.titulo span{
+h2.titulo span {
     color: #00ff08;
 }
 
-.especialidades .especialidades_box{
+.especialidades .especialidades_box {
     color: #fff;
     padding: 40px;
     margin-top: 45px;
@@ -35,39 +35,63 @@ h2.titulo span{
     margin-top: 20ex;
 }
 
-.especialidades .especialidades_box:hover{
+.especialidades .especialidades_box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #ffffff6a;
     cursor: pointer;
 }
 
-.especialidades .especialidades_box i{
+.especialidades .especialidades_box i {
     font-size: 70px;
     color: #00ff08;
 }
 
-.especialidades .especialidades_box h3{
+.especialidades .especialidades_box h3 {
     font-size: 28px;
     margin: 15px 0;
 }
 
-.especialidades .especialidades_box p{
+.especialidades .especialidades_box p {
     font-size: 22px;
 }
 
 @media screen and (max-width: 1020px) {
 
-    .flex{
+    section.especialidades .flex {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
+        gap: -500px;
     }
 
-    section.especialidades{
+    section.especialidades {
         padding: 40px 8%;
-       
     }
-    h2.titulo{
+
+    h2.titulo {
         font-size: 34px;
         line-height: 30px;
     }
-    
+
+    .especialidades .especialidades_box {
+        text-align: center;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .especialidades .especialidades_box i {
+        font-size: 80px;
+        /* ícone menor */
+        color: #00ff08;
+    }
+
+    .especialidades .especialidades_box h3 {
+        font-size: 24px;
+    }
+
+    .especialidades .especialidades_box p {
+        font-size: 16px;
+        color: #ccc;
+        margin: 0;
+    }
 }
