@@ -58,10 +58,10 @@ h2.titulo span {
 @media screen and (max-width: 1020px) {
 
     section.especialidades .flex {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
         justify-content: center;
-        flex-direction: column;
-        gap: -500px;
     }
 
     section.especialidades {
@@ -69,28 +69,31 @@ h2.titulo span {
     }
 
     h2.titulo {
-        font-size: 34px;
+        font-size: 30px;
         line-height: 30px;
+        margin-bottom: 100px;
     }
 
     .especialidades .especialidades_box {
         text-align: center;
         padding: 10px;
-        width: 150px;
+        width: 130px;
+        margin-top: 10px;
     }
 
     .especialidades .especialidades_box i {
-        font-size: 80px;
+        font-size: 40px;
         /* ícone menor */
         color: #00ff08;
     }
 
     .especialidades .especialidades_box h3 {
-        font-size: 24px;
+        font-size: 18px;
+        margin: 8px 0;
     }
 
     .especialidades .especialidades_box p {
-        font-size: 16px;
+        font-size: 14px;
         color: #ccc;
         margin: 0;
     }

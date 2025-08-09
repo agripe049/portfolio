@@ -123,14 +123,14 @@ section .topo_do_site .flex{
         display: block;
         margin-top: 10px;
     }
-
+ 
     .img_topo_site img{
         width: 60%;
         margin-bottom: 40px;
         margin-top: -60px;
     }
     .topo_do_site .txt_topo_site p{
-        font-size: 18px;
+        font-size: 16px;
     }
     .btn_contato a{
         display: flex;
@@ -139,7 +139,7 @@ section .topo_do_site .flex{
     }
     .btn_contato button{
         padding: 8px 20px;
-        font-size: px;
+
     }
     .btn_social {
         display: flex;

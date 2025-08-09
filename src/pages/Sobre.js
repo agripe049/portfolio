@@ -25,6 +25,9 @@ function Sobre() {
             </div>
             <div className={styles.txt_sobre}>
               <h2>MUITO PRAZER, <span>SOU MATHEUS AGRIPE.</span></h2>
+              <div className={styles.img_sobre_mobile}>
+                <img src={perfil} alt="Foto de perfil" className={styles.perfil} />
+              </div>
               <p>Sou desenvolvedor front-end com foco em React.js, JavaScript, HTML, CSS e Firebase.
                 Recém-formado em Análise e Desenvolvimento de Sistemas, já coloquei em prática meus
                 conhecimentos ao desenvolver, junto a dois colegas, um sistema de gerenciamento
