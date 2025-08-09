@@ -2,7 +2,7 @@ import styles from './Contato.module.css'
 import emailjs from 'emailjs-com'
 import { useRef } from 'react'
 
-function Contato() {
+function Contato() { 
     const form = useRef()
 
     function sendEmail(e) {
@@ -26,7 +26,7 @@ function Contato() {
     return (
         <section className={styles.formulario}>
             <div className={styles.interface}>
-                <h2 className={styles.titulo}>FALE <span>COMIGO.</span></h2>
+                <h2 className={styles.titulo_contato}>FALE <span>COMIGO</span></h2>
 
                 <form ref={form} onSubmit={sendEmail}>
                     <input type='text' name='nome' placeholder='Seu nome:' required />

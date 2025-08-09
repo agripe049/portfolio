@@ -161,12 +161,11 @@ section .txt_gerenciamento h2 {
     padding: 80px 4%;
   }
 
-  .img_portfolio img,
-  .img_gerenciamento img {
+  .img_portfolio img {
     display: block;
     margin: 0 auto;
-    max-width: 360px;
-    width: 100%;
+    width: 80%;
+    height: 100%;
     padding: 10px 4%;
   }
 
@@ -176,6 +175,19 @@ section .txt_gerenciamento h2 {
     align-items: center;
     text-align: center;
     padding: 10px 4%;
+  }
+
+  .portfolio .txt_portfolio h2 {
+    font-size: 26px;
+  }
+
+  .portfolio .txt_portfolio p {
+    font-size: 16px;
+  }
+
+  .btn_portfolio button {
+    padding: 5px 10px;
+    font-size: 14px;
   }
 
   .btn_portfolio {
@@ -188,6 +200,11 @@ section .txt_gerenciamento h2 {
     /* opcional: centraliza os botões */
   }
 
+  .btn_verprojeto button {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+
   .txt_gerenciamento {
     display: flex;
     flex-direction: column;
@@ -196,11 +213,36 @@ section .txt_gerenciamento h2 {
     padding: 10px 4%;
   }
 
+  .portfolio .txt_gerenciamento h2 {
+    font-size: 26px;
+    margin-top: -200px;
+  }
+
   .btn_gerenciamento {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
+  }
+
+  h2.titulo {
+    font-size: 30px;
+  }
+
+  .img_gerenciamento img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+    padding: 10px 4%;
+  }
+  .txt_gerenciamento .btn_verprojeto button {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+  .txt_gerenciamento .btn_gerenciamento button {
+    padding: 5px 10px;
+    font-size: 14px;
   }
 
 }

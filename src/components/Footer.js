@@ -1,8 +1,8 @@
 import styles from './Footer.module.css'
 
 function Footer() {
-    return (
-        <div>
+    return ( 
+        <div> 
             <footer>
                 <div className={styles.interface}>
                     <div className={styles.flex}>

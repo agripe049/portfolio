@@ -3,13 +3,13 @@
     margin: auto;
 }
 
-h2.titulo{
+h2.titulo_contato{
     color: #fff;
     font-size: 38px;
     text-align: center;
 }
 
-h2.titulo span{
+h2.titulo_contato span{
     color: #00ff08;
 }
 
@@ -51,7 +51,7 @@ form .btn_enviar{
 form .btn_enviar input{
     width: 150px;
     background-color: #00ff08;
-    color: #000;
+    color: #000; 
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
@@ -67,4 +67,20 @@ form .btn_enviar input:hover{
     .flex{
         flex-direction: column;
     }
+    h2.titulo_contato {
+        font-size: 26px;
+    }
+    .formulario form input, form textarea {
+        padding: 10px 15px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    form .btn_enviar input {
+        width: 40%;
+        padding: 6px;
+    }
+    form textarea{
+    resize: none;
+    height: 150px;
+}
 }
