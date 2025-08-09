@@ -9,6 +9,7 @@ import SlideBar from "../components/SlideBar";
 import Footer from "../components/Footer";
 import PotCakes from "../pages/PotCakes";
 import GerenciamentoCasamento from "../pages/GerenciamentoCasamento";
+import MenuMobile from "../components/MenuMobile/MenuMobile";
 
 
 
@@ -16,6 +17,7 @@ import GerenciamentoCasamento from "../pages/GerenciamentoCasamento";
 function AppRoutes() {
     return (
         <Router>
+            <MenuMobile />
             <SlideBar />
             <Routes>
                 <Route path="/" element={<Home />} />

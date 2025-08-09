@@ -1,0 +1,91 @@
+.hamburguer {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.hamburguer .linha {
+  width: 25px;
+  height: 3px;
+  background-color: #00ff08;
+  margin: 4px 0;
+  transition: .5s;
+}
+
+/* Menu lateral (inicialmente escondido) */
+.menuLateral {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 200px;
+  height: 100vh;
+  background-color: #000000;
+  padding: 50px 20px;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  transition: right 0.3s ease-in-out;
+  z-index: 998;
+}
+
+/* Quando ativo, o menu aparece */
+.menuLateral.ativo {
+  right: 0;
+}
+
+/* Botão de fechar (X) */
+.menuLateral .btnFechar {
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+/* Lista de links do menu */
+.menuLateral ul {
+  list-style: none;
+  padding: 50px 0 0;
+}
+
+.menuLateral ul li {
+  margin-bottom: 20px;
+}
+.menuLateral ul li a {
+    transition: .2s;
+}
+.menuLateral ul li a:hover{
+    color: #00ff08;
+}
+
+.btnFechar {
+  font-size: 28px;
+  color: #fff; /* ou outro contraste, como #000 se fundo for claro */
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+.menuLink{
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.menuLink:hover {
+  color: #e2e2e2;
+}
+
+/* Mostra o ícone hamburguer apenas em telas menores */
+@media screen and (max-width: 768px) {
+  .hamburguer {
+    display: flex;
+  }
+}
