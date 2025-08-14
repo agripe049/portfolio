@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 📌 Portfólio — Matheus Agripe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Status](https://img.shields.io/badge/status-online-success?style=flat-square)](#)  
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&style=flat-square)](https://reactjs.org/)  
+[![CSS](https://img.shields.io/badge/CSS3-Styles-blue?logo=css3&style=flat-square)](#)  
+[![Licença](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🖥️ Sobre o projeto
+Este é o meu portfólio pessoal desenvolvido com **React JS** (via Create React App) e **CSS puro**, criado para apresentar minhas especialidades, trajetória profissional e projetos desenvolvidos.  
+O design foi pensado para ser **simples, moderno e totalmente responsivo**, garantindo boa experiência tanto em **desktop** quanto em **dispositivos móveis**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
+- 📱 **Design Responsivo** — funciona perfeitamente em celulares, tablets e desktops.  
+- 🏠 **Página Home** — apresentação inicial com destaque para o meu nome e função.  
+- 💼 **Página de Especialidades** — lista de habilidades e tecnologias dominadas.  
+- 👤 **Página Sobre Mim** — detalhes sobre minha trajetória e perfil profissional.  
+- 📂 **Página de Projetos** — exibe os principais trabalhos desenvolvidos.  
+- 🎨 **Estilo Personalizado** — utilizando apenas CSS puro para manter leveza e performance.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias utilizadas
+- [React JS](https://reactjs.org/) — Biblioteca para construção de interfaces.  
+- [Create React App](https://create-react-app.dev/) — Ferramenta de configuração inicial.  
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) — Estilização do site.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Como executar o projeto localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Pré-requisitos
+- Ter o **npm** (instalado junto com o [Node.js](https://nodejs.org/)) ou o **yarn**.
 
-### `npm run eject`
+### 2️⃣ Clonar o repositório
+- git clone https://github.com/agripe049/portfolio.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3️⃣ Instalar dependências
+- npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4️⃣ Executar o servidor de desenvolvimento
+- npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5️⃣ Acessar no navegador
+- http://localhost:3000/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🌍 Deploy
+- O projeto está disponível online:
+https://portfoliomatheus-agripe.vercel.app/
 
-## Learn More
+📬 Contato
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nome: Matheus Agripe
+E-mail: agripeheber@gmail.com
+LinkedIn: linkedin.com/in/matheus-agripe
+GitHub: github.com/agripe049
