@@ -3,7 +3,6 @@
 [![Status](https://img.shields.io/badge/status-online-success?style=flat-square)](#)  
 [![React](https://img.shields.io/badge/React-18-blue?logo=react&style=flat-square)](https://reactjs.org/)  
 [![CSS](https://img.shields.io/badge/CSS3-Styles-blue?logo=css3&style=flat-square)](#)  
-[![Licença](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
