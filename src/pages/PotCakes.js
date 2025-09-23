@@ -6,7 +6,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import login from '../img/login.png'
 import home from '../img/home.png'
 import relatorios from '../img/relatorios.png'
-// ajustes
+// olaaa
 function PotCakes() {
     return (
         <div>
