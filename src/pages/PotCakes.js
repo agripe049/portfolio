@@ -4,10 +4,10 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import login from '../img/login.png'
-import home from '../img/home.png' 
+import home from '../img/home.png'
 import relatorios from '../img/relatorios.png'
 
-function PotCakes() { 
+function PotCakes() {
     return (
         <div>
             <section className={styles.potcakes}>
@@ -54,7 +54,7 @@ function PotCakes() {
                             </div>
                         </div>
                     </div>
-                     
+
                     <div className={styles.login}>
                         <h2>Login</h2>
                     </div>

@@ -7,7 +7,7 @@
     display: flex;
 } 
  
-h2.titulo {
+h2.titulo { 
     color: #fff;
     font-size: 38px;
     text-align: center;
@@ -136,10 +136,30 @@ h2.titulo span {
     .btn_potcakes{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+    }
+    .btn_potcakes button {
+        font-size: 14px;
     }
     .txt_img{
         padding: 20px;
+    }
+    .potcakes .txt_potcakes p {
+        font-size: 16px;
+    }
+    .potcakes .btn_online button {
+        font-size: 13px;
+        padding: 9px 10px;
+    }
+    .txt_potcakes .voltar p {
+        font-size: 14px;
+    }
+    h2.titulo {
+        font-size: 30px;
+    }
+    .login h2 {
+        font-size: 24px;
+        margin-bottom: -30px;
     }
     
 }

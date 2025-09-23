@@ -9,7 +9,7 @@ import Contato from '../components/Contato';
 
 // ola
 
-function Home() {
+function Home() { 
   return (
     <div>
  
