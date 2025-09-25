@@ -5,7 +5,7 @@
 
 .flex {
     display: flex;
-}
+} 
 
 h2.titulo {
     color: #fff;
@@ -133,7 +133,26 @@ h2.titulo span {
         flex-wrap: wrap; 
     }
     .txt_img{
-        padding: 20px;
+        padding: 30px;
     }
-    
+    h2.titulo {
+        font-size: 30px;
+    }
+    .gerenciamento .txt_gerenciamento p{
+        font-size: 16px;
+    }
+    .btn_gerenciamento button {
+        font-size: 14px;
+    }
+    .gerenciamento .btn_online button {
+        font-size: 13px;
+        padding: 9px 10px;
+    }
+    .txt_gerenciamento .voltar p {
+        font-size: 14px;
+    }
+    .dash h2 {
+        font-size: 22px;
+        margin-bottom: -30px;
+    }
 }
