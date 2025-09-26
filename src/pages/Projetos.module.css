@@ -39,7 +39,7 @@ section.portfolio .flex {
 }
 
 .portfolio .txt_portfolio h2 {
-  font-size: 40px;
+  font-size: 35px;
   line-height: 40px;
   margin-bottom: 30px;
 }
@@ -47,7 +47,7 @@ section.portfolio .flex {
 .portfolio .txt_portfolio p {
   margin: 20px 0;
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn_portfolio button {
@@ -120,7 +120,7 @@ section .img_gerenciamento .login:hover {
 .txt_gerenciamento p {
   margin: 20px 0;
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn_gerenciamento {
@@ -145,10 +145,62 @@ section .img_gerenciamento .login:hover {
 }
 
 section .txt_gerenciamento h2 {
-  font-size: 40px;
+  font-size: 35px;
   line-height: 40px;
   margin-bottom: 30px;
 }
+
+.txt_convite {
+  color: #fff;
+}
+
+.txt_convite h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.txt_convite p {
+  margin: 20px 0;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.img_convite .login {
+  cursor: pointer;
+  transition: .2s;
+}
+
+.img_convite .login:hover {
+  transform: scale(1.05);
+}
+
+.img_convite {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.btn_convite {
+  display: flex;
+  gap: 8px;
+}
+
+.btn_convite button {
+  padding: 8px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn_convite button:hover {
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
+}
+
 
 
 @media screen and (max-width: 1020px) {
@@ -236,13 +288,49 @@ section .txt_gerenciamento h2 {
     height: 50%;
     padding: 10px 4%;
   }
+
   .txt_gerenciamento .btn_verprojeto button {
     padding: 6px 10px;
     font-size: 16px;
   }
+
   .txt_gerenciamento .btn_gerenciamento button {
     padding: 5px 10px;
     font-size: 14px;
+  }
+
+  .img_convite img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 10px 4%;
+    text-align: center;
+  }
+
+  .txt_convite h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .txt_convite .btn_convite button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .txt_convite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 4%;
+  }
+
+  .btn_convite {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
   }
 
 }

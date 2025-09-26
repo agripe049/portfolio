@@ -1,7 +1,9 @@
-import styles from './Projetos.module.css'
+import styles from './Projetos.module.css';
 import login from '../img/login.png';
 import { Link } from 'react-router-dom';
-import dash from '../img/dash.png'
+import dash from '../img/dash.png';
+import homeConvite from "../img/homeConvite.png";
+import casamentoHome from "../img/casamentoHome.png";
 
 function Projetos() {
   return (
@@ -33,7 +35,7 @@ function Projetos() {
             </div>
           </div>
 
- 
+
           {/*----------------------------------------------------------------------------------------------------------------------*/}
 
 
@@ -60,7 +62,34 @@ function Projetos() {
               </div>
             </div>
           </div>
-        </div> 
+
+
+
+          {/*----------------------------------------------------------------------------------------------------------------------*/}
+          <div className={styles.flex}>
+            <div className={styles.img_convite}>
+              <Link to="">
+                <img src={casamentoHome} alt="Home" className={styles.login} />
+              </Link>
+            </div>
+            <div className={styles.txt_convite}>
+              <h2>Convite de casamento</h2>
+              <p>Sistema de convite de casamento para os noivos</p>
+              <div className={styles.btn_convite}>
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JavaScript</button>
+                <button>React</button>
+                <button>Firebase</button>
+              </div>
+               <div className={styles.btn_verprojeto}>
+                <Link to="">
+                  <button>Ver projeto</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
