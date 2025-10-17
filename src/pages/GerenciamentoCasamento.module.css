@@ -128,7 +128,7 @@ h2.titulo span {
         padding: 20px 6%;
     }
     .btn_gerenciamento{
-        display: flex;
+        display: flex; 
         flex-direction: row;
         flex-wrap: wrap; 
     }

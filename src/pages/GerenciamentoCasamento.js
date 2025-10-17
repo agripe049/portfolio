@@ -6,7 +6,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import dash from '../img/dash.png'
 
  
-function GerenciamentoCasamento() {
+function GerenciamentoCasamento() { 
     return (
         <div>
             <section className={styles.gerenciamento}>

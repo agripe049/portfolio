@@ -1,0 +1,180 @@
+.interface {
+    max-width: 1280px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+} 
+
+h2.titulo {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+h2.titulo span {
+    color: #00ff08;
+}
+
+.convite .txt_convite p {
+    margin: 50px 0;
+    text-align: justify;
+    font-size: 16px;
+    color: #fff;
+}
+
+.convite .txt_convite .btn_convite {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* permite quebrar linha se for necessário */
+    gap: 15px; /* espaçamento entre os botões */
+    margin-top: 10px;
+}
+
+.convite .txt_convite .btn_convite button{
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 600; 
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: .2s;
+    gap: 50px;
+    margin-top: 10px;
+}
+.convite .txt_convite .btn_convite button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
+.convite{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.convite .txt_convite{
+    color: #fff;
+}
+
+.convite .convite p{
+    margin: 50px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.convite .btn_online button{
+    padding: 6px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.convite .btn_online button:hover{
+    box-shadow: 0px 0px 8px #00ff08; 
+    transform: scale(1.05); 
+}
+
+.convite .btn_online{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.convite .voltar{
+    display: flex;
+    justify-content: center;
+}
+
+.convite .voltar p{
+    display: flex; /* adicionado */
+    align-items: center; /* centraliza verticalmente */
+    gap: 10px; /* espaço entre ícone e texto */
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.convite .voltar p:hover{
+    color: #00ff08; 
+    transform: scale(1.05);
+}
+    
+.convite .voltar a {
+    text-decoration: none;
+}
+.icone{
+    font-size: 14px;
+}
+.txt_img {
+    display: flex;
+    justify-content: center; /* Alinha a imagem à esquerda */
+    margin-top: 30px; /* opcional: só para afastar da seção acima */
+}
+
+.txt_img img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.home h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.txt_img img{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1020px){
+    .flex{
+        flex-direction: column;
+    }
+    section .txt_convite{
+        padding: 20px 6%;
+    }
+    .btn_convite{
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    
+    .txt_img{
+        padding: 30px;
+    }
+    h2.titulo {
+        font-size: 30px;
+    }
+    .convite .txt_convite p{
+        font-size: 16px;
+    }
+    .convite .txt_convite .btn_convite button {
+        font-size: 13px;
+    }
+    .convite .txt_convite .btn_convite{
+        gap: 8px;
+    }
+    .convite .btn_online button {
+        font-size: 13px;
+        padding: 9px 10px;
+    }
+    .convite .voltar p {
+        font-size: 14px;
+    }
+    .home h2 {
+        font-size: 22px;
+        margin-bottom: -30px;
+    }
+}

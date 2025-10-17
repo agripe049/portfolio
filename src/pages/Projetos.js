@@ -64,11 +64,10 @@ function Projetos() {
           </div>
 
 
-
           {/*----------------------------------------------------------------------------------------------------------------------*/}
           <div className={styles.flex}>
             <div className={styles.img_convite}>
-              <Link to="">
+              <Link to="/conviteCasamento">
                 <img src={casamentoHome} alt="Home" className={styles.login} />
               </Link>
             </div>
@@ -83,7 +82,7 @@ function Projetos() {
                 <button>Firebase</button>
               </div>
                <div className={styles.btn_verprojeto}>
-                <Link to="">
+                <Link to="/conviteCasamento">
                   <button>Ver projeto</button>
                 </Link>
               </div>
