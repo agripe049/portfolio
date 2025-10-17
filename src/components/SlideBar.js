@@ -9,7 +9,7 @@ function SlideBar() {
       <div className={styles.interface}>
         <div className={styles.logo}>
           <Link to="/">
-              <h2>MA</h2>
+              <h2>MA</h2> 
           </Link>
         </div>
         <nav className={styles.menuDesktop}>

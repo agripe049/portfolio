@@ -6,7 +6,7 @@
 .flex {
     display: flex;
 }
-
+ 
 .perfil {
     width: 400px;
     border-radius: 30px;
@@ -123,7 +123,7 @@ section.sobre .flex {
 
     /* Ajustes texto */
     .sobre .txt_sobre h2 {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 35px;
         text-align: center;
     }
@@ -140,10 +140,10 @@ section.sobre .flex {
     }
 
     .sobre .txt_sobre .btn_social button {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         border-radius: 30px;
-        font-size: 25px;
+        font-size: 20px;
         margin: 0 6px;
     }
 

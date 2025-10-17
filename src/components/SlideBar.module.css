@@ -8,7 +8,7 @@
 }
 
 header {
-    padding: 40px 4%; 
+    padding: 40px 4%;  
 }
 
 header > .interface {
@@ -22,7 +22,7 @@ header li a {
     text-decoration: none;
     display: inline-block;
     transition: .2s;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header li a:hover {
@@ -39,8 +39,8 @@ header nav ul li {
 }
 
 header .btn_contato button{
-    padding: 10px 40px;
-    font-size: 18px; 
+    padding: 8px 20px;
+    font-size: 16px; 
     font-weight: 600;
     background-color: #00ff08;
     border: 0;
@@ -59,7 +59,7 @@ header .btn_contato button:hover{
 }
 
 .interface .logo a h2{
-    font-size: 60px;
+    font-size: 40px;
     color: #00ff08;
 }
 
@@ -72,7 +72,8 @@ header .btn_contato button:hover{
       display: none;
     }
     .interface .logo a h2{
-        font-size: 30px;
+        font-size: 25px;
+        margin-top: -18px;
     }
   }
 

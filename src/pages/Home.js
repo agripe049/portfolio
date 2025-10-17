@@ -7,28 +7,28 @@ import Sobre from './Sobre';
 import Projetos from './Projetos';
 import Contato from '../components/Contato';
 
-// ola
+// ola 
 
 function Home() { 
-  return (
+  return ( 
     <div>
  
       <section className={styles.topo_do_site}>
         <div className={styles.interface}>
           <div className={styles.flex}>
             <div className={styles.txt_topo_site}>
-              <h1>Olá, meu nome é <span className={styles.nome}>Matheus Agripe</span></h1>
+              <h1>Olá, meu nome é <br/>
+              <span className={styles.nome}>Matheus Agripe</span></h1>
               <p>Sou desenvolvedor front-end, graduado como tecnólogo em Análise e Desenvolvimento de Sistemas,
                 com especialidades em React, JavaScript, HTML, CSS e Firebase.
-                Estou em busca da minha primeira oportunidade na área de tecnologia.
-                Apesar de ainda não ter experiência profissional na área, sou extremamente dedicado,
+                Estou em busca da minha primeira oportunidade na área de tecnologia. Sou extremamente dedicado,
                 comprometido com resultados e movido pela vontade constante de aprender e evoluir.
                 Vamos conversar?
-              </p>
+              </p> 
 
               <div className={styles.btn_contato}>
                 <Link to="/contato">
-                  <button>
+                  <button> 
                     Entre em contato
                   </button>
                 </Link>

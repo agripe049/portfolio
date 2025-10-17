@@ -8,7 +8,7 @@
 }
 
 .btn_contato button{
-    padding: 10px 40px;
+    padding: 8px 15px;
     font-size: 18px; 
     font-weight: 600; 
     background-color: #00ff08;
@@ -24,7 +24,7 @@
 }
  
 .perfil{
-    width: 400px;
+    width: 380px;
     border-radius: 30px;
 }
 
@@ -44,18 +44,18 @@ section .topo_do_site .flex{
 
 .topo_do_site h1{
     color: #fff;
-    font-size: 42px;
+    font-size: 20px;
 }
 
 .topo_do_site  .txt_topo_site h1 span{
     color: #00ff08;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .topo_do_site .txt_topo_site p{
     color: #fff;
     margin: 40px 0;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .topo_do_site .img_topo_site img{
@@ -63,10 +63,10 @@ section .topo_do_site .flex{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
+@keyframes flutuar{ 
     0%{
         top: 0;
-    }
+    } 
     100%{
         top: 30px;
     }
@@ -74,12 +74,12 @@ section .topo_do_site .flex{
 
 
 .btn_social button{
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 30px;
     border: none;
     background-color: #00ff08;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     margin: 0 8px;
     transition: .2s;
@@ -113,11 +113,11 @@ section .topo_do_site .flex{
     }
 
     .topo_do_site h1{
-        font-size: 20px;
+        font-size: 16px;
         line-height: 20px;
     }
     .topo_do_site .txt_topo_site h1 span{
-        font-size: 28px;
+        font-size: 28px; 
     }
     .nome{
         display: block;
@@ -138,7 +138,7 @@ section .topo_do_site .flex{
         text-decoration: none;
     }
     .btn_contato button{
-        padding: 8px 20px;
+        padding: 6px 10px;
 
     }
     .btn_social {
@@ -151,8 +151,9 @@ section .topo_do_site .flex{
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
     }
+    
 }
