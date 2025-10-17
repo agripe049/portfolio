@@ -25,7 +25,7 @@ function Home() {
                 comprometido com resultados e movido pela vontade constante de aprender e evoluir.
                 Vamos conversar?
               </p> 
-
+ 
               <div className={styles.btn_contato}>
                 <Link to="/contato">
                   <button> 

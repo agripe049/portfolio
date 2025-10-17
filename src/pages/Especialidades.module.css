@@ -47,17 +47,17 @@ h2.titulo span {
 }
 
 .especialidades .especialidades_box i {
-    font-size: 50px;
+    font-size: 30px;
     color: #00ff08;
 }
 
 .especialidades .especialidades_box h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 0;
 }
 
 .especialidades .especialidades_box p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -87,18 +87,18 @@ h2.titulo span {
     }
 
     .especialidades .especialidades_box i {
-        font-size: 25px;
-        /* ícone menor */
+        font-size: 20px;
+        /* ícone menor */ 
         color: #00ff08;
     }
 
     .especialidades .especialidades_box h3 {
-        font-size: 16px;
+        font-size: 14px;
         margin: 8px 0;
     }
 
     .especialidades .especialidades_box p {
-        font-size: 14px;
+        font-size: 12px;
         color: #ccc;
         margin: 0;
     }

@@ -38,7 +38,7 @@ function Sobre() {
 
               <div className={styles.btn_curriculo}>
                 <button onClick={handleDownload}>Baixar CV</button>
-              </div>
+              </div> 
 
               <div className={styles.btn_social}>
                 <a href="https://api.whatsapp.com/send/?phone=5544998995803&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">

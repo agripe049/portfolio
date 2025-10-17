@@ -6,7 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 
 function Contato() {
-    return ( 
+    return (   
       <div> 
         <section className={styles.especialidades}>
             <div className={styles.interface}>
