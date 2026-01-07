@@ -20,19 +20,19 @@ function Contato() {
             console.error('Erro:', error.text)
             alert('Ocorreu um erro ao enviar. Tente novamente.')
         })
-        e.target.reset()
+        e.target.reset() 
     }
     
     return (
         <section className={styles.formulario}>
             <div className={styles.interface}>
-                <h2 className={styles.titulo_contato}>FALE <span>COMIGO</span></h2>
+                <h2 className={styles.titulo_contato}>Vamos trabalhar juntos?<br/> Entre em contato</h2>
 
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type='text' name='nome' placeholder='Seu nome:' required />
-                    <input type='email' name='email' placeholder='Seu e-mail:' required />
-                    <input type='text' name='celular' placeholder='Seu celular' />
-                    <textarea name='mensagem' placeholder='Sua mensagem' required />
+                    <input type='text' name='nome' placeholder='Nome:' required />
+                    <input type='email' name='email' placeholder='E-mail:' required />
+                    <input type='text' name='celular' placeholder='Telefone:' />
+                    <textarea name='mensagem' placeholder='Mensagem' required />
                     <div className={styles.btn_enviar}>
                         <input type='submit' value='Enviar' />
                     </div>

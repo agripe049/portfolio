@@ -9,26 +9,26 @@ import Contato from '../components/Contato';
 
 // ola 
 
-function Home() { 
-  return ( 
+function Home() {
+  return (
     <div>
- 
+
       <section className={styles.topo_do_site}>
         <div className={styles.interface}>
           <div className={styles.flex}>
             <div className={styles.txt_topo_site}>
-              <h1>Olá, meu nome é <br/>
-              <span className={styles.nome}>Matheus Agripe</span></h1>
+              <h1>Olá, meu nome é <br />
+                <span className={styles.nome}>Matheus Agripe</span></h1>
               <p>Sou desenvolvedor front-end, graduado como tecnólogo em Análise e Desenvolvimento de Sistemas,
-                com especialidades em React, JavaScript, HTML, CSS e Firebase.
-                Estou em busca da minha primeira oportunidade na área de tecnologia. Sou extremamente dedicado,
-                comprometido com resultados e movido pela vontade constante de aprender e evoluir.
-                Vamos conversar?
-              </p> 
- 
+                com especialidades em React, JavaScript, HTML, CSS e Firebase, Node.js.
+                Estou em constante aprendizado e aprimoramento, com foco em desenvolver
+                interfaces funcionais e visualmente agradáveis. Estou aberto a novos
+                desafios e oportunidades de crescimento.
+              </p>
+
               <div className={styles.btn_contato}>
                 <Link to="/contato">
-                  <button> 
+                  <button>
                     Entre em contato
                   </button>
                 </Link>

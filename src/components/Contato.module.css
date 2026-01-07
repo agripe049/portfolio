@@ -5,9 +5,9 @@
 
 h2.titulo_contato{
     color: #fff;
-    font-size: 38px;
+    font-size: 32px;
     text-align: center;
-}
+} 
 
 h2.titulo_contato span{
     color: #00ff08;
@@ -28,11 +28,12 @@ form{
 }
 
 form input, form textarea{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     background-color: #2d2d2d;
     border: 0;
     outline: 0;
-    padding: 20px 15px;
+    padding: 15px 15px;
     border-radius: 15px;
     color: #fff;
     font-size: 18px;
@@ -40,7 +41,7 @@ form input, form textarea{
 
 form textarea{
     resize: none;
-    height: 200px;
+    height: 150px;
 }
 
 form .btn_enviar{
@@ -49,7 +50,8 @@ form .btn_enviar{
 }
 
 form .btn_enviar input{
-    width: 150px;
+    width: 130px;
+    padding: 10px;
     background-color: #00ff08;
     color: #000; 
     font-weight: 700;
@@ -76,11 +78,11 @@ form .btn_enviar input:hover{
         margin: 0 auto;
     }
     form .btn_enviar input {
-        width: 40%;
+        width: 30%;
         padding: 6px;
     }
     form textarea{
     resize: none;
-    height: 150px;
+    height: 110px;
 }
 }

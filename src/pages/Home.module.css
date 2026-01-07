@@ -133,7 +133,7 @@ section .topo_do_site .flex{
         font-size: 16px;
     }
     .btn_contato a{
-        display: flex;
+        display: flex; 
         justify-content: center;
         text-decoration: none;
     }
