@@ -58,7 +58,7 @@ section .topo_do_site .flex{
     font-size: 18px;
 }
  
-
+ 
 .btn_social button{
     width: 30px;
     height: 30px;
@@ -125,6 +125,7 @@ section .topo_do_site .flex{
     }
     .btn_contato button{
         padding: 6px 10px;
+        color: #000;
 
     }
     .btn_social {
@@ -140,6 +141,7 @@ section .topo_do_site .flex{
         width: 30px;
         height: 30px;
         border-radius: 50%;
+        color: #000;
     }
     
 }
