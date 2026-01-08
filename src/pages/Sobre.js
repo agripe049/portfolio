@@ -28,11 +28,10 @@ function Sobre() {
               <div className={styles.img_sobre_mobile}>
                 <img src={perfil} alt="Foto de perfil" className={styles.perfil} />
               </div>
-              <p>Sou desenvolvedor front-end com foco em React.js, JavaScript, HTML, CSS e Firebase.
+              <p>Sou desenvolvedor front-end com foco em React.js, JavaScript, HTML, CSS, Firebase e Node.js.
                 Recém-formado em Análise e Desenvolvimento de Sistemas, já coloquei em prática meus
-                conhecimentos ao desenvolver, junto a dois colegas, um sistema de gerenciamento
-                para uma confeitaria como projeto de TCC. O sistema foi tão bem-sucedido que hoje
-                está em uso real por uma pequena empresa, contribuindo diretamente para a organização
+                conhecimentos ao desenvolver um sistema de gerenciamento
+                para uma confeitaria como projeto de TCC. O sistema foi muito bem-sucedido, contribuindo diretamente para a organização
                 e eficiência do negócio. Gosto de criar soluções que saem do papel e fazem a diferença
                 na vida real e estou sempre em busca do próximo desafio.</p>
 

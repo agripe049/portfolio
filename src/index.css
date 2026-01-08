@@ -5,13 +5,26 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
-  background-color: rgba(0, 0, 0, 0.911);
-  height: 100vh;
+html, body, #root {
+  height: 100%;
+}
+
+body {
+   background-color: #000;
 }
 
 .flex{
   display: flex;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
 }
 
 

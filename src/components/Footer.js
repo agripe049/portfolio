@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
     return ( 
-        <div> 
+        <div>  
             <footer>
                 <div className={styles.interface}>
                     <div className={styles.flex}>

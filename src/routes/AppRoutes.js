@@ -12,25 +12,28 @@ import GerenciamentoCasamento from "../pages/GerenciamentoCasamento";
 import MenuMobile from "../components/MenuMobile/MenuMobile";
 import ConviteCasamento from "../pages/ConviteCasamento";
 
-
-
-
 function AppRoutes() {
     return (
         <Router>
-            <MenuMobile />
-            <SlideBar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/especialidades" element={<Especialidades />} />
-                <Route path="/sobre" element={<Sobre />} />
-                <Route path="/projetos" element={<Projetos />} />
-                <Route path="/contato" element={<Contato />} />
-                <Route path="/potcakes" element={<PotCakes />}/>
-                <Route path="/gerenciamentoCasamento" element={<GerenciamentoCasamento />}/>
-                <Route path="/conviteCasamento" element={<ConviteCasamento />} />
-            </Routes>
-            <Footer />
+            <div className="app-container">
+                <MenuMobile />
+                <SlideBar />
+
+                <main className="content">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/especialidades" element={<Especialidades />} />
+                        <Route path="/sobre" element={<Sobre />} />
+                        <Route path="/projetos" element={<Projetos />} />
+                        <Route path="/contato" element={<Contato />} />
+                        <Route path="/potcakes" element={<PotCakes />} />
+                        <Route path="/gerenciamentoCasamento" element={<GerenciamentoCasamento />} />
+                        <Route path="/conviteCasamento" element={<ConviteCasamento />} />
+                    </Routes>
+                </main>
+
+                <Footer />
+            </div>
         </Router>
     );
 }

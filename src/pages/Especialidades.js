@@ -7,7 +7,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 function Contato() {
     return (   
-      <div> 
+      <div>  
         <section className={styles.especialidades}>
             <div className={styles.interface}>
               <h2 className={styles.titulo}>MINHAS <span>ESPECIALIDADES.</span></h2>
