@@ -2,7 +2,6 @@ import styles from './Projetos.module.css';
 import login from '../img/login.png';
 import { Link } from 'react-router-dom';
 import dash from '../img/dash.png';
-import homeConvite from "../img/homeConvite.png";
 import casamentoHome from "../img/casamentoHome.png";
 
 function Projetos() {
@@ -80,7 +79,7 @@ function Projetos() {
                 <button>JavaScript</button>
                 <button>React</button>
                 <button>Firebase</button>
-              </div>
+              </div> 
                <div className={styles.btn_verprojeto}>
                 <Link to="/conviteCasamento">
                   <button>Ver projeto</button>

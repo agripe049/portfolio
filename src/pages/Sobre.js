@@ -22,7 +22,7 @@ function Sobre() {
           <div className={styles.flex}>
             <div className={styles.img_sobre}>
               <img src={perfil} alt="Foto de perfil" className={styles.perfil} />
-            </div>
+            </div> 
             <div className={styles.txt_sobre}>
               <h2>MUITO PRAZER, <span>SOU MATHEUS AGRIPE.</span></h2>
               <div className={styles.img_sobre_mobile}>

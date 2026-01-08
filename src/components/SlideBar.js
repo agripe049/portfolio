@@ -27,7 +27,7 @@ function SlideBar() {
               <Link to="/projetos">Projetos</Link>
             </li>
           </ul>
-        </nav>
+        </nav> 
 
         <div className={styles.btn_contato}>
           <Link to="/contato">

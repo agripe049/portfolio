@@ -58,9 +58,9 @@ header .btn_contato button:hover{
     text-decoration: none;
 }
 
-.interface .logo a h2{
+.interface .logo a h2{ 
     font-size: 40px;
-    color: #00ff08;
+    color: #fff;
 }
 
 @media screen and (max-width: 1020px) {
