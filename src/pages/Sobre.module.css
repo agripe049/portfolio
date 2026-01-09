@@ -30,10 +30,11 @@ section.sobre .flex {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 30px;
+    color: #00ff08;
 }
 
 .sobre .txt_sobre h2 span {
-    color: #00ff08;
+    color: #fff;
     display: block;
 }
 
@@ -46,7 +47,7 @@ section.sobre .flex {
     margin: 20px 0;
     text-align: justify;
     font-size: 18px;
-}
+} 
 
 /* Botões sociais */
 .sobre .txt_sobre .btn_social button {
@@ -91,7 +92,7 @@ section.sobre .flex {
 
 /* === Responsivo === */
 @media screen and (max-width: 1020px) {
-
+ 
     .flex {
         flex-direction: column;
         align-items: center;
@@ -145,6 +146,7 @@ section.sobre .flex {
         border-radius: 30px;
         font-size: 20px;
         margin: 0 6px; 
+        color: #000;
     }
 
     /* Centraliza botão baixar CV */
@@ -156,5 +158,6 @@ section.sobre .flex {
         padding: 6px 10px;
         font-size: 16px;
         border-radius: 40px;
+        color: #000;
     }
 }

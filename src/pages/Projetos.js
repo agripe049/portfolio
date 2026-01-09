@@ -28,7 +28,7 @@ function Projetos() {
               </div>
               <div className={styles.btn_verprojeto}>
                 <Link to="/potcakes">
-                  <button>Ver projeto</button>
+                  <p>Ver projeto</p>
                 </Link>
               </div>
             </div>
@@ -56,7 +56,7 @@ function Projetos() {
               </div>
               <div className={styles.btn_verprojeto}>
                 <Link to="/gerenciamentoCasamento">
-                  <button>Ver projeto</button>
+                  <p>Ver projeto</p>
                 </Link>
               </div>
             </div>
@@ -72,7 +72,7 @@ function Projetos() {
             </div>
             <div className={styles.txt_convite}>
               <h2>Convite de casamento</h2>
-              <p>Sistema de convite de casamento para os noivos</p>
+              <p>Sistema de convite de casamento</p>
               <div className={styles.btn_convite}>
                 <button>HTML</button>
                 <button>CSS</button>
@@ -82,7 +82,7 @@ function Projetos() {
               </div> 
                <div className={styles.btn_verprojeto}>
                 <Link to="/conviteCasamento">
-                  <button>Ver projeto</button>
+                  <p>Ver projeto</p>
                 </Link>
               </div>
             </div>

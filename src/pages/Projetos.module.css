@@ -16,7 +16,7 @@
 
 h2.titulo {
   color: #fff;
-  font-size: 38px;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@ section.portfolio .flex {
 }
 
 .portfolio .txt_portfolio h2 {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 40px;
   margin-bottom: 30px;
 }
@@ -47,12 +47,12 @@ section.portfolio .flex {
 .portfolio .txt_portfolio p {
   margin: 20px 0;
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn_portfolio button {
   padding: 4px 6px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   background-color: #00ff08;
   border: 0;
@@ -71,20 +71,23 @@ section.portfolio .flex {
   gap: 8px;
 }
 
-.btn_verprojeto button {
-  padding: 4px 6px;
-  font-size: 16px;
-  font-weight: 600;
-  background-color: #fff;
-  border: 0;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: .2s;
-  margin-top: 20px;
+.btn_verprojeto a {
+  text-decoration: none;
 }
 
-.btn_verprojeto button:hover {
-  box-shadow: 0px 0px 8px #fff;
+.btn_verprojeto p {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn_verprojeto p:hover {
+  box-shadow: #fff;
   transform: scale(1.05);
 }
 
@@ -120,7 +123,7 @@ section .img_gerenciamento .login:hover {
 .txt_gerenciamento p {
   margin: 20px 0;
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn_gerenciamento {
@@ -130,7 +133,7 @@ section .img_gerenciamento .login:hover {
 
 .btn_gerenciamento button {
   padding: 4px 6px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   background-color: #00ff08;
   border: 0;
@@ -145,7 +148,7 @@ section .img_gerenciamento .login:hover {
 }
 
 section .txt_gerenciamento h2 {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 40px;
   margin-bottom: 30px;
 }
@@ -156,14 +159,14 @@ section .txt_gerenciamento h2 {
 }
 
 .txt_convite h2 {
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 .txt_convite p {
   margin: 20px 0;
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .img_convite .login {
@@ -218,7 +221,7 @@ section .txt_gerenciamento h2 {
     display: block;
     margin: 0 auto;
     width: 80%;
-    height: 100%;
+    height: 100%; 
     padding: 10px 4%;
   }
 
@@ -236,10 +239,11 @@ section .txt_gerenciamento h2 {
 
   .portfolio .txt_portfolio p {
     font-size: 16px;
+    margin-top: -20px;
   }
 
   .btn_portfolio button {
-    padding: 5px 10px;
+    padding: 2px 6px;
     font-size: 14px;
   }
 
@@ -254,7 +258,7 @@ section .txt_gerenciamento h2 {
   }
 
   .btn_verprojeto button {
-    padding: 6px 10px;
+    padding: 2px 6px;
     font-size: 16px;
   }
 
@@ -303,10 +307,11 @@ section .txt_gerenciamento h2 {
   .img_convite img {
     display: block;
     margin: 0 auto;
-    width: 80%;
-    height: 100%;
+    width: 150%;
+    height: 60%;
     padding: 10px 4%;
     text-align: center;
+    margin-left: -50px;
   }
 
   .txt_convite h2 {
@@ -325,6 +330,7 @@ section .txt_gerenciamento h2 {
     align-items: center;
     text-align: center;
     padding: 10px 4%;
+    margin-top: -155px;
   }
  
   .btn_convite {

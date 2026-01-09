@@ -4,10 +4,11 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
+import { FaNodeJs } from "react-icons/fa";
 
 function Contato() {
     return (   
-      <div>  
+      <div>   
         <section className={styles.especialidades}>
             <div className={styles.interface}>
               <h2 className={styles.titulo}>MINHAS <span>ESPECIALIDADES.</span></h2>
@@ -36,6 +37,11 @@ function Contato() {
                         <i><IoLogoFirebase /></i>
                         <h3>Firebase</h3>
                         <p>2 anos de experiência</p>
+                    </div>
+                    <div className={styles.especialidades_box}>
+                        <i><FaNodeJs /></i>
+                        <h3>Node.js</h3>
+                        <p>1 ano de experiência</p>
                     </div>
                 </div>
             </div>
