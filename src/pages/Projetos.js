@@ -45,7 +45,7 @@ function Projetos() {
               </Link>
             </div>
             <div className={styles.txt_gerenciamento}>
-              <h2>Gerenciamento de orçamentos</h2>
+              <h2>Gerenciador de orçamentos</h2>
               <p>Sistema desenvolvido para gerenciamento de orçamentos para casamentos</p>
               <div className={styles.btn_gerenciamento}>
                 <button>HTML</button>

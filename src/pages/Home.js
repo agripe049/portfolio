@@ -10,7 +10,7 @@ import Contato from '../components/Contato';
 function Home() {
   return (
     <div>
- 
+
       <section className={styles.topo_do_site}>
         <div className={styles.interface}>
           <div className={styles.flex}>

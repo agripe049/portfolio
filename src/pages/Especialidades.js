@@ -27,7 +27,7 @@ function Contato() {
                         <i><IoLogoJavascript /></i>
                         <h3>JavaScript</h3>
                         <p>3 anos de experiência</p>
-                    </div>
+                    </div> 
                     <div className={styles.especialidades_box}>
                         <i><FaReact /></i>
                         <h3>React</h3>

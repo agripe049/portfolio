@@ -74,10 +74,12 @@ section.portfolio .flex {
 .btn_verprojeto a {
   text-decoration: none;
 }
+.btn_verprojeto {
+  margin-top: 10px;
+}
 
 .btn_verprojeto p {
   display: inline-block;
-  margin-top: 50px;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
@@ -155,7 +157,6 @@ section .txt_gerenciamento h2 {
 
 .txt_convite {
   color: #fff;
-  margin-right: 40px;
 }
 
 .txt_convite h2 {
@@ -169,6 +170,7 @@ section .txt_gerenciamento h2 {
   font-size: 16px;
 }
 
+
 .img_convite .login {
   cursor: pointer;
   transition: .2s;
@@ -179,7 +181,7 @@ section .txt_gerenciamento h2 {
 }
 
 .img_convite {
-  width: 50%;
+  width: 80%;
   height: 400px;
   margin: 0 auto;
 }
@@ -330,7 +332,7 @@ section .txt_gerenciamento h2 {
     align-items: center;
     text-align: center;
     padding: 10px 4%;
-    margin-top: -155px;
+    margin-top: 30px;
   }
  
   .btn_convite {
