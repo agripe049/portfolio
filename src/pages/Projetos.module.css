@@ -128,4 +128,7 @@
   .projectTech {
     justify-content: center;
   }
+  .projectTech button {
+    color: #000;
+  }
 }
