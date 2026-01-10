@@ -15,23 +15,19 @@ function PotCakes() {
                     <h2 className={styles.titulo}><span>Pot Cakes</span> - Confeitaria</h2>
                     <div className={styles.flex}>
                         <div className={styles.txt_potcakes}>
-                            <p>O projeto "Pot Cakes" foi desenvolvido para atender às necessidades específicas
-                                de uma confeiteira no gerenciamento de seus pedidos. Na página inicial, é exibido
-                                um painel com a quantidade de pedidos organizados por data de entrega, além de
-                                destacar os que já estão prontos, aguardando apenas a retirada.
-                                O sistema conta com uma seção dedicada aos clientes, permitindo o cadastro, edição,
-                                ativação, inativação e busca por nome. Todos os campos são obrigatórios, garantindo
-                                o preenchimento completo das informações.
-                                Na aba de produtos, é possível cadastrar itens informando nome, peso, preço e quantidade
-                                — também com validação obrigatória. Há ainda uma listagem geral dos produtos e o
-                                controle de estoque.
-                                Na área de vendas, o processo é simplificado: o usuário precisa apenas informar a
-                                quantidade, preço, data e forma de entrega. Os demais dados são selecionados a partir
-                                de registros já existentes no sistema.
-                                Por fim, a seção de relatórios oferece uma visão gráfica do desempenho das vendas,
-                                mostrando o total de produtos vendidos, o faturamento acumulado e os itens mais vendidos.
-                                Esse projeto foi um caso de sucesso e atualmente está em uso por uma pequena empresa do
-                                ramo de confeitaria, contribuindo diretamente para a organização e eficiência das suas operações diárias.</p>
+                            <p>O projeto Pot Cakes foi desenvolvido para auxiliar uma
+                                confeiteira no gerenciamento de pedidos e operações
+                                do negócio. A aplicação apresenta um painel inicial
+                                com os pedidos organizados por data de entrega,
+                                destacando aqueles já prontos para retirada.
+                                O sistema permite o cadastro e gerenciamento de
+                                clientes e produtos, com validação obrigatória
+                                dos dados, além do controle de estoque.
+                                O processo de vendas é simples e integrado aos
+                                registros existentes. A aplicação também conta
+                                com relatórios gráficos que exibem o
+                                desempenho das vendas, faturamento e
+                                produtos mais vendidos.</p>
                             <div className={styles.btn_potcakes}>
                                 <button>HTML</button>
                                 <button>CSS</button>

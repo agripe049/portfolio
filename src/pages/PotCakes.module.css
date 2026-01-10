@@ -153,7 +153,10 @@ h2.titulo span {
     }
 
     .txt_img {
-        padding: 30px;
+        padding: 10px;
+    }
+    .txt_img img {
+        max-width: 70%;
     }
 
     .potcakes .txt_potcakes p {
