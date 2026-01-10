@@ -149,6 +149,7 @@ h2.titulo span {
 
     .btn_potcakes button {
         font-size: 14px;
+        color: #000;
     }
 
     .txt_img {
@@ -162,6 +163,7 @@ h2.titulo span {
     .potcakes .btn_online button {
         font-size: 13px;
         padding: 9px 10px;
+        color: #000;
     }
 
     .txt_potcakes .voltar p {
