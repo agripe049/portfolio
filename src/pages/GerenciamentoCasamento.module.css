@@ -159,4 +159,7 @@ h2.titulo span {
         font-size: 22px;
         margin-bottom: -50px;
     }
+     .txt_img img {
+        max-width: 70%;
+    }
 }
