@@ -70,7 +70,7 @@ function Projetos() {
             </div>
           </div>
         </div>
-
+ 
         {/* CONVITE */}
         <div className={styles.project}>
           <div className={styles.projectImg}>

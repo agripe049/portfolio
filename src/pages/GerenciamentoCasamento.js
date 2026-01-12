@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import dash from '../img/dash.png'
 
- 
+  
 function GerenciamentoCasamento() { 
     return (
         <div>
             <section className={styles.gerenciamento}>
                 <div className={styles.interface}>
-                    <h2 className={styles.titulo}><span>Gerenciamento</span> - Orçamentos</h2>
+                    <h2 className={styles.titulo}><span>Gerenciador</span> - Orçamentos</h2>
                     <div className={styles.flex}>
                         <div className={styles.txt_gerenciamento}>
                             <p>Este sistema foi desenvolvido com o objetivo de facilitar o controle
@@ -23,7 +23,7 @@ function GerenciamentoCasamento() {
                                pode ser adaptado a outros tipos de eventos e projetos que exijam 
                                controle de gastos.
                                Principais funcionalidades são: Cadastro e gerenciamento de despesas
-                               e receitas, visualização clara do saldo disponível, Ideal para casais,
+                               e receitas, visualização clara do saldo disponível. Ideal para casais,
                                organizadores de eventos ou qualquer pessoa que deseje controlar 
                                melhor seu orçamento.</p>
                             <div className={styles.btn_gerenciamento}>

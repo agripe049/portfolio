@@ -59,7 +59,7 @@
 }
 
 .projectText p {
-  font-size: 16px;
+  font-size: 16px; 
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -119,10 +119,6 @@
   .projectImg img {
     width: 90%;
     height: auto;
-  }
-
-  .projectText {
-    margin-top: 30px;
   }
 
   .projectTech {
