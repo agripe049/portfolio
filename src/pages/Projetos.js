@@ -17,7 +17,7 @@ function Projetos() {
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/">
-              <img src={HomeCine} alt="Pot Cakes" />
+              <img src={HomeCine} alt="Cine Pot" />
             </Link>
           </div>
 

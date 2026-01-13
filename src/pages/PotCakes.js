@@ -7,7 +7,7 @@ import login from '../img/login.png'
 import home from '../img/home.png'
 import relatorios from '../img/relatorios.png'
 
-function PotCakes() {
+function PotCakes() { 
     return (
         <div>
             <section className={styles.potcakes}>

@@ -11,6 +11,7 @@ import PotCakes from "../pages/PotCakes";
 import GerenciamentoCasamento from "../pages/GerenciamentoCasamento";
 import MenuMobile from "../components/MenuMobile/MenuMobile";
 import ConviteCasamento from "../pages/ConviteCasamento";
+import CinePot from "../pages/CinePot";
 
 function AppRoutes() {
     return (
@@ -29,6 +30,7 @@ function AppRoutes() {
                         <Route path="/potcakes" element={<PotCakes />} />
                         <Route path="/gerenciamentoCasamento" element={<GerenciamentoCasamento />} />
                         <Route path="/conviteCasamento" element={<ConviteCasamento />} />
+                        <Route path="/cinepot" element={<CinePot />} />
                     </Routes>
                 </main>
 
