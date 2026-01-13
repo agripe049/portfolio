@@ -2,6 +2,7 @@ import styles from './Projetos.module.css';
 import { Link } from 'react-router-dom'; 
 import login from '../img/login.png';
 import dash from '../img/dash.png';
+import HomeCine from '../img/HomeCine.png'
 import casamentoHome from '../img/casamentoHome.png';
 
 function Projetos() {
@@ -11,6 +12,33 @@ function Projetos() {
         <h2 className={styles.titulo}>
           MEUS <span>PROJETOS.</span>
         </h2>
+
+        {/* Cine Pot */}
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Link to="/">
+              <img src={HomeCine} alt="Pot Cakes" />
+            </Link>
+          </div>
+
+          <div className={styles.projectText}>
+            <h2>Cine Pot</h2>
+            <p>Aplicação em React focada no consumo da API do TMDB para listagem e busca de filmes.</p>
+
+            <div className={styles.projectTech}>
+              <button>React</button>
+              <button>JavaScript</button>
+              <button>CSS</button>
+              <button>API REST</button>
+            </div>
+
+            <div className={styles.btn_verprojeto}>
+              <Link to="/">
+                <p>Ver projeto</p>
+              </Link>
+            </div>
+          </div>
+        </div>
 
         {/* POT CAKES */}
         <div className={styles.project}>
@@ -78,7 +106,7 @@ function Projetos() {
               <img src={casamentoHome} alt="Convite de Casamento" />
             </Link>
           </div>
-
+ 
           <div className={styles.projectText}>
             <h2>Convite de casamento</h2>
             <p>Sistema de convite de casamento.</p>
