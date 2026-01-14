@@ -106,7 +106,7 @@ h2.titulo span {
     display: flex;
     justify-content: center;
     /* Alinha a imagem à esquerda */
-    margin-top: 30px;
+    margin-top: 50px;
     /* opcional: só para afastar da seção acima */
 }
 
@@ -114,13 +114,61 @@ h2.titulo span {
     max-width: 60%;
     height: auto;
     border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 
 .login h2 {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1020px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    section .txt_cinepot {
+        padding: 20px 6%;
+    }
+    .btn_cinepot {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .btn_cinepot button {
+        font-size: 14px;
+        color: #000;
+    }
+    .txt_img {
+        padding: 10px;
+    }
+    .txt_img img {
+        max-width: 70%;
+    }
+    .cinepot .txt_potcakes p {
+        font-size: 16px;
+    }
+
+    .cinepot .btn_online button {
+        font-size: 13px;
+        padding: 9px 10px;
+        color: #000;
+    }
+    .txt_cinepot .voltar p {
+        font-size: 14px;
+    }
+
+    h2.titulo {
+        font-size: 30px;
+    }
+    .login h2 {
+        font-size: 22px;
+        margin-bottom: -30px;
+    }
+
 }

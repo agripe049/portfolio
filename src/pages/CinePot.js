@@ -52,19 +52,19 @@ function CinePot() {
             <h2>Home</h2>
           </div>
           <div className={styles.txt_img}>
-            <img src={HomeCine} alt="Login" />
+            <img src={HomeCine} alt="Home" />
           </div>
           <div className={styles.login}>
-            <h2>Pesquisando</h2>
+            <h2>Pesquisa</h2>
           </div>
           <div className={styles.txt_img}>
-            <img src={Pesquisa} alt="Home" />
+            <img src={Pesquisa} alt="Pesquisa" />
           </div>
           <div className={styles.login}>
             <h2>Página de detalhes</h2>
           </div>
           <div className={styles.txt_img}>
-            <img src={Detalhes} alt="Relatórios" />
+            <img src={Detalhes} alt="Detalhes" />
           </div>
         </div>
       </section>

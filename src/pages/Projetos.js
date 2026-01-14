@@ -16,7 +16,7 @@ function Projetos() {
         {/* Cine Pot */}
         <div className={styles.project}>
           <div className={styles.projectImg}>
-            <Link to="/">
+            <Link to="/cinepot">
               <img src={HomeCine} alt="Cine Pot" />
             </Link>
           </div>
@@ -33,7 +33,7 @@ function Projetos() {
             </div>
 
             <div className={styles.btn_verprojeto}>
-              <Link to="/">
+              <Link to="/cinepot">
                 <p>Ver projeto</p>
               </Link>
             </div>
