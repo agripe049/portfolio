@@ -2,6 +2,9 @@ import { CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
+import HomeCine from '../img/HomeCine.png'
+import Pesquisa from '../img/Pesquisa.png'
+import Detalhes from '../img/Detalhes.png'
 import styles from './CinePot.module.css'
 
 function CinePot() {
@@ -12,10 +15,18 @@ function CinePot() {
           <h2 className={styles.titulo}><span>Cine Pot</span> - Filmes</h2>
           <div className={styles.flex}>
             <div className={styles.txt_cinepot}>
-              <p>O projeto Pot Cakes foi desenvolvido para auxiliar uma
-                confeiteira no gerenciamento de pedidos e operações
-                do negócio. A aplicação apresenta um painel inicial
-                com os pedidos organizados por data de entrega,</p>
+              <p>Cine Pot é uma aplicação desenvolvida em React com
+                foco no consumo de API REST, utilizando a TMDB como
+                fonte de dados. O sistema permite listar filmes
+                populares, realizar buscas por nome e acessar
+                uma página de detalhes com informações dinâmicas
+                dos filmes. O projeto aplica conceitos essenciais
+                do React, como componentização, useState, useEffect
+                e rotas dinâmicas com React Router, além de
+                trabalhar com requisições assíncronas e boas
+                práticas na organização do código. O layout
+                é simples, pois o foco esteve na integração
+                com a API e no fluxo de dados da aplicação.</p>
               <div className={styles.btn_cinepot}>
                 <button>React</button>
                 <button>JavaScript</button>
@@ -23,10 +34,10 @@ function CinePot() {
                 <button>API REST</button>
               </div>
               <div className={styles.btn_online}>
-                <a href="https://bolo-theta.vercel.app" target="_blank" rel="noopener noreferrer">
+                <a href="https://api-filmes.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <button><CiGlobe /> Projeto Online</button>
                 </a>
-                <a href="https://github.com/agripe049/bolo" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/agripe049/api-filmes" target="_blank" rel="noopener noreferrer">
                   <button><FaGithub /> Repositório</button>
                 </a>
               </div>
@@ -38,7 +49,22 @@ function CinePot() {
             </div>
           </div>
           <div className={styles.login}>
-            <h2>Login</h2>
+            <h2>Home</h2>
+          </div>
+          <div className={styles.txt_img}>
+            <img src={HomeCine} alt="Login" />
+          </div>
+          <div className={styles.login}>
+            <h2>Pesquisando</h2>
+          </div>
+          <div className={styles.txt_img}>
+            <img src={Pesquisa} alt="Home" />
+          </div>
+          <div className={styles.login}>
+            <h2>Página de detalhes</h2>
+          </div>
+          <div className={styles.txt_img}>
+            <img src={Detalhes} alt="Relatórios" />
           </div>
         </div>
       </section>

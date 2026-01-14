@@ -11,6 +11,7 @@ h2.titulo {
     color: #fff;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h2.titulo span {
@@ -27,7 +28,7 @@ h2.titulo span {
     cursor: pointer;
     transition: .2s;
     gap: 20px;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .btn_cinepot button:hover {
@@ -71,6 +72,7 @@ h2.titulo span {
 .txt_cinepot .voltar {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .txt_cinepot .voltar p {
@@ -98,6 +100,20 @@ h2.titulo span {
 
 .icone {
     font-size: 18px;
+}
+
+.txt_img {
+    display: flex;
+    justify-content: center;
+    /* Alinha a imagem à esquerda */
+    margin-top: 30px;
+    /* opcional: só para afastar da seção acima */
+}
+
+.txt_img img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
 }
 
 
