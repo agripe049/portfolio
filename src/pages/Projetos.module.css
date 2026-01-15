@@ -34,7 +34,7 @@
   display: flex;
   justify-content: center;
 }
-
+ 
 .projectImg img {
   width: 100%;
   height: 400px;
@@ -128,5 +128,8 @@
   }
   .projectTech button {
     color: #000;
+  }
+  .projectText h2 {
+    font-size: 25px;
   }
 }
