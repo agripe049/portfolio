@@ -12,6 +12,7 @@ import GerenciamentoCasamento from "../pages/GerenciamentoCasamento";
 import MenuMobile from "../components/MenuMobile/MenuMobile";
 import ConviteCasamento from "../pages/ConviteCasamento";
 import CinePot from "../pages/CinePot";
+import ControleFinanceiro from "../pages/ControleFinanceiro";
 
 function AppRoutes() {
     return (
@@ -31,6 +32,7 @@ function AppRoutes() {
                         <Route path="/gerenciamentoCasamento" element={<GerenciamentoCasamento />} />
                         <Route path="/conviteCasamento" element={<ConviteCasamento />} />
                         <Route path="/cinepot" element={<CinePot />} />
+                        <Route path="/controleFinanceiro" element={<ControleFinanceiro />} />
                     </Routes>
                 </main>
 

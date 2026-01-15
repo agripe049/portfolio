@@ -8,7 +8,7 @@ import home from '../img/home.png'
 import relatorios from '../img/relatorios.png'
 
 function PotCakes() { 
-    return (
+    return ( 
         <div>
             <section className={styles.potcakes}>
                 <div className={styles.interface}>

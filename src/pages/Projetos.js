@@ -1,9 +1,10 @@
 import styles from './Projetos.module.css';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 import login from '../img/login.png';
 import dash from '../img/dash.png';
 import HomeCine from '../img/HomeCine.png'
 import casamentoHome from '../img/casamentoHome.png';
+import Controle from '../img/Controle.png'
 
 function Projetos() {
   return (
@@ -68,6 +69,64 @@ function Projetos() {
           </div>
         </div>
 
+        {/* CONVITE */}
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Link to="/conviteCasamento">
+              <img src={casamentoHome} alt="Convite de Casamento" />
+            </Link>
+          </div>
+
+          <div className={styles.projectText}>
+            <h2>Convite de casamento</h2>
+            <p>Sistema de convite de casamento.</p>
+
+            <div className={styles.projectTech}>
+              <button>HTML</button>
+              <button>CSS</button>
+              <button>JavaScript</button>
+              <button>React</button>
+              <button>Firebase</button>
+            </div>
+
+            <div className={styles.btn_verprojeto}>
+              <Link to="/conviteCasamento">
+                <p>Ver projeto</p>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* CONTROLE FINANCEIRO */}
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Link to="/controleFinanceiro">
+              <img src={Controle} alt="Gerenciador de Orçamentos" />
+            </Link>
+          </div>
+
+          <div className={styles.projectText}>
+            <h2>Controle Financeiro</h2>
+            <p>
+              Sistema SaaS desenvolvido para Controle Financeiro.
+            </p>
+
+            <div className={styles.projectTech}>
+              <button>HTML</button>
+              <button>CSS</button>
+              <button>JavaScript</button>
+              <button>React</button>
+              <button>Firebase</button>
+            </div>
+
+            <div className={styles.btn_verprojeto}>
+              <Link to="/controleFinanceiro">
+                <p>Ver projeto</p>
+              </Link>
+            </div>
+          </div>
+        </div>
+
         {/* GERENCIAMENTO */}
         <div className={styles.project}>
           <div className={styles.projectImg}>
@@ -93,34 +152,6 @@ function Projetos() {
 
             <div className={styles.btn_verprojeto}>
               <Link to="/gerenciamentoCasamento">
-                <p>Ver projeto</p>
-              </Link>
-            </div>
-          </div>
-        </div>
- 
-        {/* CONVITE */}
-        <div className={styles.project}>
-          <div className={styles.projectImg}>
-            <Link to="/conviteCasamento">
-              <img src={casamentoHome} alt="Convite de Casamento" />
-            </Link>
-          </div>
- 
-          <div className={styles.projectText}>
-            <h2>Convite de casamento</h2>
-            <p>Sistema de convite de casamento.</p>
-
-            <div className={styles.projectTech}>
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
-              <button>React</button>
-              <button>Firebase</button>
-            </div>
-
-            <div className={styles.btn_verprojeto}>
-              <Link to="/conviteCasamento">
                 <p>Ver projeto</p>
               </Link>
             </div>
