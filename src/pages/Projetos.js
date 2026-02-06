@@ -1,10 +1,10 @@
 import styles from './Projetos.module.css';
 import { Link } from 'react-router-dom';
-import login from '../img/login.png';
-import dash from '../img/dash.png';
-import HomeCine from '../img/HomeCine.png'
-import casamentoHome from '../img/casamentoHome.png';
-import Controle from '../img/Controle.png'
+import pot from '../img/pot.png';
+import dashh from '../img/dashh.png';
+import HomeCinee from '../img/HomeCinee.png'
+import convitee from '../img/convitee.png';
+import control from '../img/control.png'
 
 function Projetos() {
   return (
@@ -18,7 +18,7 @@ function Projetos() {
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/cinepot">
-              <img src={HomeCine} alt="Cine Pot" />
+              <img src={HomeCinee} alt="Cine Pot" />
             </Link>
           </div>
 
@@ -45,7 +45,7 @@ function Projetos() {
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/potcakes">
-              <img src={login} alt="Pot Cakes" />
+              <img src={pot} alt="Pot Cakes" />
             </Link>
           </div>
 
@@ -73,7 +73,7 @@ function Projetos() {
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/conviteCasamento">
-              <img src={casamentoHome} alt="Convite de Casamento" />
+              <img src={convitee} alt="Convite de Casamento" />
             </Link>
           </div>
 
@@ -101,7 +101,7 @@ function Projetos() {
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/controleFinanceiro">
-              <img src={Controle} alt="Gerenciador de Orçamentos" />
+              <img src={control} alt="Gerenciador de Orçamentos" />
             </Link>
           </div>
 
@@ -131,7 +131,7 @@ function Projetos() {
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/gerenciamentoCasamento">
-              <img src={dash} alt="Gerenciador de Orçamentos" />
+              <img src={dashh} alt="Gerenciador de Orçamentos" />
             </Link>
           </div>
 
