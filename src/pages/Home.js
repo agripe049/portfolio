@@ -17,11 +17,11 @@ function Home() {
             <div className={styles.txt_topo_site}>
               <h1>Olá, meu nome é <br />
                 <span className={styles.nome}>Matheus Agripe</span></h1>
-              <p>Sou desenvolvedor Front-end, graduado tecnólogo em Análise e Desenvolvimento de Sistemas,
-                com especialidades em React, JavaScript, HTML, CSS, Firebase e Node.js.
-                Estou em constante aprendizado e aprimoramento, com foco em desenvolver
-                interfaces funcionais e visualmente agradáveis. Estou aberto a novos
-                desafios e oportunidades de crescimento.
+              <p>Desenvolvedor Front-end formado em Análise e
+                Desenvolvimento de Sistemas, com foco em React,
+                JavaScript, HTML, CSS, Firebase, Node.js e
+                consumo de APIs, criando interfaces funcionais
+                e bem estruturadas.
               </p>
 
               <div className={styles.btn_contato}>
