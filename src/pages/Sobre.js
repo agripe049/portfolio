@@ -1,14 +1,14 @@
 import styles from './Sobre.module.css'
 import perfil from '../img/perfil.jpeg'
-import curriculo from '../img/curriculo.pdf'
+import Curriculo from '../img/Curriculo.pdf'
 
 function Sobre() {
 
   const handleDownload = (e) => {
     e.preventDefault(); // Previne o comportamento padrão do link
     const link = document.createElement('a');
-    link.href = curriculo;
-    link.setAttribute('download', 'curriculo.pdf'); // Nome do arquivo ao ser baixado
+    link.href = Curriculo;
+    link.setAttribute('download', 'Matheus.pdf'); // Nome do arquivo ao ser baixado
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link); // Remove o link após o download
