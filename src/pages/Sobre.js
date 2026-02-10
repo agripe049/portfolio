@@ -8,7 +8,7 @@ function Sobre() {
     e.preventDefault(); // Previne o comportamento padrão do link
     const link = document.createElement('a');
     link.href = Curriculo;
-    link.setAttribute('download', 'Matheus.pdf'); // Nome do arquivo ao ser baixado
+    link.setAttribute('download', 'Curriculo.pdf'); // Nome do arquivo ao ser baixado
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link); // Remove o link após o download
