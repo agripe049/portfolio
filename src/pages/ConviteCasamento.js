@@ -22,11 +22,9 @@ function ConviteCasamento() {
                 Os dados utilizados nos prints são reais, com autorização dos noivos.
                 O site não está disponível publicamente, a fim de evitar acessos indevidos.</p>
               <div className={styles.btn_convite}>
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>JavaScript</button>
                 <button>React</button>
                 <button>Firebase</button>
+                <button>Vercel</button>
               </div>
               <div className={styles.btn_online}>
                 <a href="https://github.com/agripe049/gerenciamento-casamento" target="_blank" rel="noopener noreferrer">

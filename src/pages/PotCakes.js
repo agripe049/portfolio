@@ -7,8 +7,8 @@ import login from '../img/login.png'
 import home from '../img/home.png'
 import relatorios from '../img/relatorios.png'
 
-function PotCakes() { 
-    return ( 
+function PotCakes() {
+    return (
         <div>
             <section className={styles.potcakes}>
                 <div className={styles.interface}>
@@ -29,11 +29,9 @@ function PotCakes() {
                                 desempenho das vendas, faturamento e
                                 produtos mais vendidos.</p>
                             <div className={styles.btn_potcakes}>
-                                <button>HTML</button>
-                                <button>CSS</button>
-                                <button>JavaScript</button>
                                 <button>React</button>
                                 <button>Firebase</button>
+                                <button>Vercel</button>
                             </div>
                             <div className={styles.btn_online}>
                                 <a href="https://bolo-theta.vercel.app" target="_blank" rel="noopener noreferrer">

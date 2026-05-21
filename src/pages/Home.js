@@ -19,7 +19,7 @@ function Home() {
                 <span className={styles.nome}>Matheus Agripe</span></h1>
               <p>Desenvolvedor Front-end formado em Análise e
                 Desenvolvimento de Sistemas, com foco em React,
-                JavaScript, HTML, CSS, Firebase, Node.js e
+                JavaScript, HTML, CSS, Firebase, Node.js, MySQL e
                 consumo de APIs, criando interfaces funcionais
                 e bem estruturadas.
               </p>

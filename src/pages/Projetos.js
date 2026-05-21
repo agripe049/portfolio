@@ -5,6 +5,7 @@ import dashh from '../img/dashh.png';
 import HomeCinee from '../img/HomeCinee.png'
 import convitee from '../img/convitee.png';
 import control from '../img/control.png'
+import cep from '../img/cep.png'
 
 function Projetos() {
   return (
@@ -28,9 +29,8 @@ function Projetos() {
 
             <div className={styles.projectTech}>
               <button>React</button>
-              <button>JavaScript</button>
-              <button>CSS</button>
               <button>API REST</button>
+              <button>Vercel</button>
             </div>
 
             <div className={styles.btn_verprojeto}>
@@ -54,15 +54,39 @@ function Projetos() {
             <p>Sistema desenvolvido para gerenciamento de confeitaria.</p>
 
             <div className={styles.projectTech}>
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
               <button>React</button>
               <button>Firebase</button>
+              <button>Vercel</button>
             </div>
 
             <div className={styles.btn_verprojeto}>
               <Link to="/potcakes">
+                <p>Ver projeto</p>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Consulta CEP */}
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Link to="/">
+              <img src={cep} alt="Via Cep" />
+            </Link>
+          </div>
+
+          <div className={styles.projectText}>
+            <h2>Consulta CEP</h2>
+            <p>Aplicação focada no consumo da api ViaCEP.</p>
+
+            <div className={styles.projectTech}>
+              <button>React</button>
+              <button>API REST (ViaCEP)</button>
+              <button>Vercel</button>
+            </div>
+
+            <div className={styles.btn_verprojeto}>
+              <Link to="/">
                 <p>Ver projeto</p>
               </Link>
             </div>
@@ -82,11 +106,9 @@ function Projetos() {
             <p>Sistema de convite de casamento.</p>
 
             <div className={styles.projectTech}>
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
               <button>React</button>
               <button>Firebase</button>
+              <button>Vercel</button>
             </div>
 
             <div className={styles.btn_verprojeto}>
@@ -112,11 +134,9 @@ function Projetos() {
             </p>
 
             <div className={styles.projectTech}>
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
               <button>React</button>
               <button>Firebase</button>
+              <button>Vercel</button>
             </div>
 
             <div className={styles.btn_verprojeto}>
@@ -143,11 +163,9 @@ function Projetos() {
             </p>
 
             <div className={styles.projectTech}>
-              <button>HTML</button>
-              <button>CSS</button>
-              <button>JavaScript</button>
               <button>React</button>
               <button>Firebase</button>
+              <button>Vercel</button>
             </div>
 
             <div className={styles.btn_verprojeto}>

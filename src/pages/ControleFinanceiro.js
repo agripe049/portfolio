@@ -20,14 +20,12 @@ function ControleFinanceiro() {
                                 com CRUD completo, autenticação de usuários, dados isolados por
                                 usuário, filtro por data e cálculo automático de receitas, despesas
                                 e saldo. Aplicação responsiva, com foco no uso de React Hooks, integração
-                                com Firestore e boas práticas de desenvolvimento front-end. Use as credenciais abaixo para testar o sistema:<br /> 
+                                com Firestore e boas práticas de desenvolvimento front-end. Use as credenciais abaixo para testar o sistema:<br />
                                 Email: recrutador@demo.com - Senha: Demo@123</p>
                             <div className={styles.btn_controleFinanceiro}>
-                                <button>HTML</button>
-                                <button>CSS</button>
-                                <button>JavaScript</button>
                                 <button>React</button>
                                 <button>Firebase</button>
+                                <button>Vercel</button>
                             </div>
                             <div className={styles.btn_online}>
                                 <a href="https://controle-financeiro-indol-ten.vercel.app" target="_blank" rel="noopener noreferrer">

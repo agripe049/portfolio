@@ -13,6 +13,7 @@ import MenuMobile from "../components/MenuMobile/MenuMobile";
 import ConviteCasamento from "../pages/ConviteCasamento";
 import CinePot from "../pages/CinePot";
 import ControleFinanceiro from "../pages/ControleFinanceiro";
+import ConsultaCep from "../pages/ConsultaCep";
 
 function AppRoutes() {
     return (
@@ -33,6 +34,7 @@ function AppRoutes() {
                         <Route path="/conviteCasamento" element={<ConviteCasamento />} />
                         <Route path="/cinepot" element={<CinePot />} />
                         <Route path="/controleFinanceiro" element={<ControleFinanceiro />} />
+                        <Route path="/consultaCep" element={<ConsultaCep />} />
                     </Routes>
                 </main>
 

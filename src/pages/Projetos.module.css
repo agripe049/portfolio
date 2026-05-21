@@ -18,7 +18,7 @@
 .titulo span {
   color: #00ff08;
 }
-
+ 
 /* CARD DO PROJETO */
 .project {
   display: flex;
@@ -111,6 +111,8 @@
   transform: scale(1.05);
 }
 
+
+
 /* RESPONSIVO */
 @media (max-width: 1020px) {
   .project {
@@ -132,4 +134,5 @@
   .projectText h2 {
     font-size: 25px;
   }
+
 }

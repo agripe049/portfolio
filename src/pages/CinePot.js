@@ -29,9 +29,8 @@ function CinePot() {
                 com a API e no fluxo de dados da aplicação.</p>
               <div className={styles.btn_cinepot}>
                 <button>React</button>
-                <button>JavaScript</button>
-                <button>CSS</button>
                 <button>API REST</button>
+                <button>Vercel</button>
               </div>
               <div className={styles.btn_online}>
                 <a href="https://api-filmes.vercel.app/" target="_blank" rel="noopener noreferrer">

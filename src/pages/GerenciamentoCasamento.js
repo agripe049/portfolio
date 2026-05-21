@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import dash from '../img/dash.png'
 
-  
-function GerenciamentoCasamento() { 
+
+function GerenciamentoCasamento() {
     return (
         <div>
             <section className={styles.gerenciamento}>
@@ -15,23 +15,21 @@ function GerenciamentoCasamento() {
                     <div className={styles.flex}>
                         <div className={styles.txt_gerenciamento}>
                             <p>Este sistema foi desenvolvido com o objetivo de facilitar o controle
-                               financeiro de eventos, com foco especial em casamentos. A plataforma
-                               permite que os usuários registrem e acompanhem despesas e receitas
-                               de forma simples e intuitiva, possibilitando uma melhor organização
-                               do orçamento total.
-                               Embora tenha sido pensado para casamentos, o sistema é flexível e 
-                               pode ser adaptado a outros tipos de eventos e projetos que exijam 
-                               controle de gastos.
-                               Principais funcionalidades são: Cadastro e gerenciamento de despesas
-                               e receitas, visualização clara do saldo disponível. Ideal para casais,
-                               organizadores de eventos ou qualquer pessoa que deseje controlar 
-                               melhor seu orçamento.</p>
+                                financeiro de eventos, com foco especial em casamentos. A plataforma
+                                permite que os usuários registrem e acompanhem despesas e receitas
+                                de forma simples e intuitiva, possibilitando uma melhor organização
+                                do orçamento total.
+                                Embora tenha sido pensado para casamentos, o sistema é flexível e
+                                pode ser adaptado a outros tipos de eventos e projetos que exijam
+                                controle de gastos.
+                                Principais funcionalidades são: Cadastro e gerenciamento de despesas
+                                e receitas, visualização clara do saldo disponível. Ideal para casais,
+                                organizadores de eventos ou qualquer pessoa que deseje controlar
+                                melhor seu orçamento.</p>
                             <div className={styles.btn_gerenciamento}>
-                                <button>HTML</button>
-                                <button>CSS</button>
-                                <button>JavaScript</button>
                                 <button>React</button>
                                 <button>Firebase</button>
+                                <button>Vercel</button>
                             </div>
                             <div className={styles.btn_online}>
                                 <a href="https://gerenciamento-casamento.vercel.app/" target="_blank" rel="noopener noreferrer">
