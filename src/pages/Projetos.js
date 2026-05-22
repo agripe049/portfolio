@@ -29,7 +29,7 @@ function Projetos() {
 
             <div className={styles.projectTech}>
               <button>React</button>
-              <button>API REST</button>
+              <button>API REST (TMDB)</button>
               <button>Vercel</button>
             </div>
 
@@ -70,7 +70,7 @@ function Projetos() {
         {/* Consulta CEP */}
         <div className={styles.project}>
           <div className={styles.projectImg}>
-            <Link to="/">
+            <Link to="/consultaCep">
               <img src={cep} alt="Via Cep" />
             </Link>
           </div>
@@ -86,7 +86,7 @@ function Projetos() {
             </div>
 
             <div className={styles.btn_verprojeto}>
-              <Link to="/">
+              <Link to="/consultaCep">
                 <p>Ver projeto</p>
               </Link>
             </div>

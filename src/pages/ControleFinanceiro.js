@@ -9,7 +9,7 @@ import Controle from '../img/Controle.png'
 
 function ControleFinanceiro() {
     return (
-        <div>
+        <div> 
             <section className={styles.controleFinanceiro}>
                 <div className={styles.interface}>
                     <h2 className={styles.titulo}><span>Controle</span> - Financeiro</h2>

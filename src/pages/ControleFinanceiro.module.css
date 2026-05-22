@@ -164,11 +164,11 @@ h2.titulo span {
 
     .controleFinanceiro .btn_online button {
         font-size: 13px;
-        padding: 9px 10px;
+        padding: 4px 6px;
         color: #000;
     }
     .txt_potcakes .voltar p { 
-        font-size: 14px;
+        font-size: 14px; 
     }
 
     h2.titulo {
