@@ -27,7 +27,7 @@ function ConviteCasamento() {
                 <button>Vercel</button>
               </div>
               <div className={styles.btn_online}>
-                <a href="https://github.com/agripe049/gerenciamento-casamento" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/agripe049/convite_casa" target="_blank" rel="noopener noreferrer">
                   <button><FaGithub className={styles.icone} /> Repositório</button>
                 </a>
               </div>
