@@ -30,7 +30,7 @@ function AppRoutes() {
                         <Route path="/projetos" element={<Projetos />} />
                         <Route path="/contato" element={<Contato />} />
                         <Route path="/potcakes" element={<PotCakes />} />
-                        <Route path="/gerenciamentoCasamento" element={<GerenciamentoCasamento />} />
+                        {/*<Route path="/gerenciamentoCasamento" element={<GerenciamentoCasamento />} />*/}
                         <Route path="/conviteCasamento" element={<ConviteCasamento />} />
                         <Route path="/cinepot" element={<CinePot />} />
                         <Route path="/controleFinanceiro" element={<ControleFinanceiro />} />

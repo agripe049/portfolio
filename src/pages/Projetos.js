@@ -147,7 +147,7 @@ function Projetos() {
           </div>
         </div>
 
-        {/* GERENCIAMENTO */}
+        {/* GERENCIAMENTO 
         <div className={styles.project}>
           <div className={styles.projectImg}>
             <Link to="/gerenciamentoCasamento">
@@ -175,6 +175,7 @@ function Projetos() {
             </div>
           </div>
         </div>
+        */}
       </div>
     </section>
   );
